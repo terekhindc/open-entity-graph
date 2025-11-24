@@ -3,13 +3,60 @@
     "@type": "Organization",
     "@id": "https://riskacademy.blog/#organization",
     "name": "RISK-ACADEMY",
+    "alternateName": "Risk Academy Blog",
+    "description": "Global education provider focusing on quantitative risk management (RM2), risk intelligence, and decision science. Organizer of the Risk Awareness Week conference.",
     "url": "https://riskacademy.blog",
-    "logo": "https://i0.wp.com/riskacademy.blog/wp-content/uploads/2017/01/riskacademy-eng-logo2.png",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://i0.wp.com/riskacademy.blog/wp-content/uploads/2017/01/riskacademy-eng-logo2.png"
+    },
+    "knowsAbout": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Risk Management",
+            "url": "https://www.wikidata.org/wiki/Q189447"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Monte Carlo method",
+            "url": "https://www.wikidata.org/wiki/Q232207"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Probabilistic Risk Assessment",
+            "url": "https://www.wikidata.org/wiki/Q1082833"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Quantitative Risk Assessment",
+            "url": "https://www.wikidata.org/wiki/Q136951628"
+        }
+    ],
+    "founder": {
+        "@type": "Person",
+        "name": "Alex Sidorenko",
+        "@id": "https://riskawarenessweek.com/speakers/alex-sidorenko/#person",
+        "jobTitle": "CRO & Founder",
+        "sameAs": [
+            "https://www.linkedin.com/in/alexsidorenko/",
+            "https://www.wikidata.org/wiki/Q136950534"
+        ]
+    },
     "sameAs": [
+        "https://www.wikidata.org/wiki/Q136948276",
         "https://www.facebook.com/groups/riskacademy",
-        "https://www.linkedin.com/in/alexsidorenko/",
+        "https://www.linkedin.com/company/risk-academy",
         "https://www.youtube.com/channel/UCog9jkDZdiRps2w27MZ5Azg"
     ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "alex.ausrisk@gmail.com",
+        "availableLanguage": [
+            "English",
+            "Russian"
+        ]
+    },
     "subjectOf": {
         "@type": "CreativeWork",
         "name": "Open Entity Graph Record",

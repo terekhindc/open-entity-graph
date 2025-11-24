@@ -1,0 +1,11 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://riskawarenessweek.com/speakers/alex-sidorenko#person",
+    "name": "Alex Sidorenko",
+    "jobTitle": "CRO & Founder",
+    "sameAs": [
+        "https://www.linkedin.com/in/alexsidorenko/",
+        "https://www.wikidata.org/wiki/Q136950534"
+    ]
+}

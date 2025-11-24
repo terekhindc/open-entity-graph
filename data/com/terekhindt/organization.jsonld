@@ -7,14 +7,47 @@
             "name": "Terekhin Digital Crew",
             "url": "https://www.terekhindt.com",
             "logo": "https://www.terekhindt.com/images/icon.webp",
-            "description": "Strategic Go-to-Market partner for B2B startups...",
+            "slogan": "Your Idea. Engineered for Growth.",
+            "description": "Terekhin Digital Crew is a strategic Go-to-Market partner for B2B startups. We build traction, prepare you for investment, and solve complex technological challenges in AI, AR, and VR.",
             "founder": {
                 "@type": "Person",
                 "name": "Andy Terekhin"
             },
-            "sameAs": [
-                "https://www.linkedin.com/company/terekhindc"
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Sales and partnership inquiries",
+                "email": "info@terekhindt.com",
+                "telephone": "+972535536620"
+            },
+            "areaServed": [
+                {
+                    "@type": "Country",
+                    "name": "USA"
+                },
+                {
+                    "@type": "Country",
+                    "name": "United Kingdom"
+                },
+                {
+                    "@type": "Continent",
+                    "name": "Europe"
+                },
+                {
+                    "@type": "Country",
+                    "name": "United Arab Emirates"
+                },
+                {
+                    "@type": "Country",
+                    "name": "Israel"
+                }
             ],
+            "sameAs": [
+                "https://www.linkedin.com/company/terekhindc",
+                "https://www.facebook.com/terekhindc/",
+                "https://www.instagram.com/terekhindc/",
+                "https://www.goodfirms.co/company/terekhin-digital-crew"
+            ],
+            "keywords": "Go-to-Market, B2B startups, MVP Development, CTO as a Service, Investment Readiness, AI Development, AR Development, VR Development, LLM Marketing, AEO, AI Visibility, Answer Engine Optimization",
             "hasOfferCatalog": {
                 "@type": "OfferCatalog",
                 "name": "Services",
@@ -23,11 +56,47 @@
                         "@type": "Offer",
                         "itemOffered": {
                             "@type": "Service",
+                            "name": "AI Visibility Marketing (AEO)",
+                            "description": "Optimization for Generative Engines (ChatGPT, Claude, Gemini, Perplexity). We structure your data to ensure your brand becomes a trusted source in AI-generated responses."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
                             "name": "End-to-End MVP Development"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Pilot Projects (R&D as a Service)"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Technical & Marketing Partnership (CTO & CMO as a Service)"
                         }
                     }
                 ]
             },
+            "audience": [
+                {
+                    "@id": "https://www.terekhindt.com/#audience-visionary"
+                },
+                {
+                    "@id": "https://www.terekhindt.com/#audience-tech-founder"
+                },
+                {
+                    "@id": "https://www.terekhindt.com/#audience-scaling"
+                },
+                {
+                    "@id": "https://www.terekhindt.com/#audience-corporate"
+                }
+            ],
             "subjectOf": {
                 "@type": "CreativeWork",
                 "name": "Open Entity Graph Record",
@@ -35,13 +104,28 @@
             }
         },
         {
-            "@type": "Product",
-            "@id": "https://www.terekhindt.com/masterpieces/adsan#product",
-            "name": "ADSAN",
-            "description": "AI-powered MVP PropTech SaaS platform.",
-            "provider": {
-                "@id": "https://www.terekhindt.com/#organization"
-            }
+            "@type": "Audience",
+            "@id": "https://www.terekhindt.com/#audience-visionary",
+            "audienceType": "The Early-Stage Visionary (Non-Technical Founder)",
+            "description": "Founders of Pre-Seed/Seed stage startups with deep industry expertise but a non-technical background. Their primary challenge is turning a validated idea into a quality MVP within a limited budget to gain initial traction and prepare for the next investment round."
+        },
+        {
+            "@type": "Audience",
+            "@id": "https://www.terekhindt.com/#audience-tech-founder",
+            "audienceType": "The Technical Visionary (Founder with Tech Background)",
+            "description": "Technically proficient founders, such as former CTOs or senior developers, who have built a product but lack marketing and sales expertise. Their primary challenge is achieving Product-Market Fit by acquiring their first paying customers."
+        },
+        {
+            "@type": "Audience",
+            "@id": "https://www.terekhindt.com/#audience-scaling",
+            "audienceType": "The Scaling Innovator (CTO/CPO in a Growth-Stage Company)",
+            "description": "CTOs or CPOs in growth-stage tech companies (Series A, B) who need to augment their in-house team to quickly develop a complex, specialized module (e.g., AI/AR/VR)."
+        },
+        {
+            "@type": "Audience",
+            "@id": "https://www.terekhindt.com/#audience-corporate",
+            "audienceType": "The Corporate Innovator (Head of Innovation/R&D)",
+            "description": "Heads of Innovation, Digital Transformation, or R&D in large, established companies. Their primary challenge is launching innovative pilot projects quickly within a slow, bureaucratic corporate structure to prove ROI."
         }
     ]
 }

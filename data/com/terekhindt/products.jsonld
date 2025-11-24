@@ -1,0 +1,175 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/adsan#product",
+            "name": "ADSAN",
+            "slogan": "From idea to first market traction in 3 months.",
+            "url": "https://www.terekhindt.com/masterpieces/adsan",
+            "description": "Developed the ADSAN PropTech SaaS platform from idea to market traction in 3 months. The AI-powered MVP automates report generation from photos for engineers.",
+            "keywords": "PropTech, SaaS, AI, Computer Vision, MVP Development",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/digital-ark#product",
+            "name": "The Digital Ark",
+            "slogan": "Using VR to Save an Endangered Language",
+            "url": "https://www.terekhindt.com/masterpieces/digital-ark",
+            "description": "Developed a VR-based educational ecosystem to preserve the endangered Tofalar language, creating a 'digital ark' for cultural heritage.",
+            "keywords": "VR, EdTech, Language Preservation, Unity, Cultural Heritage",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/dual-ar-bridge#product",
+            "name": "The Dual AR Bridge",
+            "slogan": "How We Stopped the Revolving Door in Manufacturing",
+            "url": "https://www.terekhindt.com/masterpieces/dual-ar-bridge",
+            "description": "Created a 'Dual AR Bridge' with two synchronized AR applications to reduce new employee training time from 2 weeks to 3 days and cut assembly errors by 70%.",
+            "keywords": "AR, Manufacturing, Industry 4.0, Employee Training, Unity",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/red-squad-vr#product",
+            "name": "Red Squad VR",
+            "slogan": "How to 'Bring to Life' a Museum Exhibit and Increase Visitor Count by 30%",
+            "url": "https://www.terekhindt.com/masterpieces/red-squad-vr",
+            "description": "Developed an immersive VR experience for a museum to 'bring history to life,' increasing museum attendance by 30% and visitor engagement by 50%.",
+            "keywords": "VR, Museum Exhibit, Immersive Experience, Edutainment, Unity",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/living-magazine#product",
+            "name": "The Living Magazine",
+            "slogan": "An AR Ecosystem for Rosatom's HR Department",
+            "url": "https://www.terekhindt.com/masterpieces/living-magazine",
+            "description": "Developed a self-sufficient AR ecosystem that turned a corporate magazine into an interactive portal for Rosatom's HR department.",
+            "keywords": "AR, Internal Communications, HR Tech, Employee Engagement, Unity",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/pokryshkin-vr-museum#product",
+            "name": "Virtual Museum for Novosibirsk Science Library",
+            "slogan": "How to Fit an Aircraft Hangar Inside a Science Library",
+            "url": "https://www.terekhindt.com/masterpieces/pokryshkin-vr-museum",
+            "description": "Developed a full-scale virtual reality museum for a science library, centered around a P-39 Airacobra fighter.",
+            "keywords": "VR, Museum, Virtual Museum, Edutainment, Digital History, Unity",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/ideal-laboratory#product",
+            "name": "The Ideal Laboratory",
+            "slogan": "How VR Ensured the Purity of a Scientific Experiment",
+            "url": "https://www.terekhindt.com/masterpieces/ideal-laboratory",
+            "description": "Developed a 'perfect laboratory' in VR for 'Light Therapy Technologies' to conduct research on how color and flicker frequency impact psycho-emotional state.",
+            "keywords": "VR, Scientific Research, Light Therapy, Data Integrity, Unity",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/sales-office-in-pocket#product",
+            "name": "The Sales Office in Your Pocket",
+            "slogan": "How an AR/VR App Destroys 'Catalog Blindness'",
+            "url": "https://www.terekhindt.com/masterpieces/sales-office-in-pocket",
+            "description": "Developed a mobile app with an 'Immersion Triad' (AR/VR modes) that qualifies leads and expands sales geography for real estate.",
+            "keywords": "AR, VR, Real Estate, Sales Enablement, Lead Qualification, Unity",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/therapeutic-magic#product",
+            "name": "Therapeutic Magic",
+            "slogan": "How We Built a Pediatric VR Therapy Tool on Budget",
+            "url": "https://www.terekhindt.com/masterpieces/therapeutic-magic",
+            "description": "Developed and successfully piloted a VR therapy platform for children ('beStraight') that transforms routine therapeutic exercises into an exciting game.",
+            "keywords": "VR, Pediatric Therapy, Healthcare, Gamification, Motivation, Unity",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/engineering-xray#product",
+            "name": "The Engineering X-Ray",
+            "slogan": "How AR Turns Complex Equipment into a Desktop Model",
+            "url": "https://www.terekhindt.com/masterpieces/engineering-xray",
+            "description": "Developed an AR 'Engineering X-Ray' that cut the B2B sales cycle by answering 90% of technical questions in a single meeting.",
+            "keywords": "AR, Engineering, B2B Sales, Technical Demonstration, Unity",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/products.jsonld"
+            }
+        }
+    ]
+}

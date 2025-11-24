@@ -1,0 +1,93 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Person",
+            "@id": "https://riskawarenessweek.com/speakers/alex-sidorenko#person",
+            "name": "Alex Sidorenko",
+            "jobTitle": "Head of Risk, Insurance and Internal Audit, Serra Verde / Organizer, RISK-ACADEMY",
+            "knowsAbout": [
+                "Risk Management",
+                "RM2",
+                "Quantitative Risk Analysis",
+                "Decision Making",
+                "AI in Risk"
+            ],
+            "image": "https://i0.wp.com/riskacademy.blog/wp-content/uploads/2018/10/DSC00803.jpg",
+            "sameAs": [
+                "https://www.linkedin.com/in/alexsidorenko/",
+                "https://twitter.com/alexei_sid",
+                "https://www.youtube.com/channel/UCog9jkDZdiRps2w27MZ5Azg"
+            ],
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/riskawarenessweek/speakers.jsonld"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://riskawarenessweek.com/speakers/douglas-hubbard#person",
+            "name": "Douglas Hubbard",
+            "jobTitle": "Founder/President, Hubbard Decision Research",
+            "knowsAbout": [
+                "Quantitative Risk Analysis",
+                "How to Measure Anything",
+                "Decision Science",
+                "AI",
+                "RM2"
+            ],
+            "image": "https://hubbardresearch.com/wp-content/uploads/2022/03/douglas-w-hubbard-dec-2021.jpg",
+            "sameAs": [
+                "https://www.hubbardresearch.com/"
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://riskawarenessweek.com/speakers/sam-savage#person",
+            "name": "Sam Savage",
+            "jobTitle": "Executive Director, ProbabilityManagement.org",
+            "knowsAbout": [
+                "Probability Management",
+                "Quantitative Risk Analysis",
+                "Distributions",
+                "Monte Carlo Simulation"
+            ],
+            "image": "https://images.squarespace-cdn.com/content/v1/5a4f82d7a8b2b04080732f87/1714166175228-CDHJQ9599EHCCTYKHN5N/Sam_Headshot_2023.jpg",
+            "sameAs": [
+                "https://probabilitymanagement.org/"
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://riskawarenessweek.com/speakers/norman-marks#person",
+            "name": "Norman Marks",
+            "jobTitle": "Author, thought leader, retired CAE and CRO",
+            "knowsAbout": [
+                "Risk Management",
+                "Internal Audit",
+                "Decision Making",
+                "RM2"
+            ],
+            "image": "https://cdn.sanity.io/images/3lljlnf0/production/f3ad1339744d4e40618ed914989972eda2ab625e-720x720.png?w=128&h=128&q=75&fit=max&auto=format",
+            "sameAs": [
+                "https://normanmarks.wordpress.com/"
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://riskawarenessweek.com/speakers/hernan-huwyler#person",
+            "name": "Prof. Hernan Huwyler",
+            "jobTitle": "AI GRC Lead and Professor, IE Business School - Capgemini",
+            "knowsAbout": [
+                "AI GRC",
+                "Audit",
+                "Risk Management"
+            ],
+            "image": "https://www.digitalfirstmagazine.com/wp-content/uploads/2024/04/Prof.-Hernan-Huwyler.png",
+            "sameAs": [
+                "https://www.linkedin.com/in/hernanwyler"
+            ]
+        }
+    ]
+}

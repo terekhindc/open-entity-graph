@@ -10,10 +10,16 @@
             "@id": "https://riskacademy.blog/#organization"
         },
         {
+            "@id": "https://www.terekhindt.com/#organization"
+        },
+        {
             "@id": "https://riskawarenessweek.com/#eventseries"
         },
         {
-            "@id": "https://www.terekhindt.com/#organization"
+            "@id": "https://2025.riskawarenessweek.com/#event"
+        },
+        {
+            "@id": "https://riskawarenessweek.com/speakers/alex-sidorenko#person"
         }
     ]
 }
