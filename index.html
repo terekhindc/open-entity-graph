@@ -5,144 +5,292 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Entity Graph | Verified Registry</title>
-    <meta name="description" content="A decentralized registry of structured data for AI & LLMs.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css">
+    <meta name="description"
+        content="A decentralized registry of structured data for AI & LLMs. Verified by Open Entity Graph.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
-            background: #f4f6f8;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.5;
             padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
         }
 
         header {
             text-align: center;
-            margin-bottom: 50px;
-        }
-
-        h1 {
-            font-weight: 700;
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+            margin-bottom: 60px;
         }
 
         .badge {
-            background: #dbeafe;
-            color: #1e40af;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            background-color: #dbeafe;
+            color: var(--primary);
+            font-size: 0.8rem;
             font-weight: 600;
+            padding: 6px 16px;
+            border-radius: 99px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: inline-block;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .search-wrapper {
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 16px 20px;
+            font-size: 1rem;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            transition: all 0.2s;
+            outline: none;
+            background: white;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
         }
 
         .card {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-            margin-bottom: 20px;
-            border: 1px solid #e5e7eb;
-            transition: transform 0.2s;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
+            border-color: #cbd5e1;
         }
 
-        .entity-type {
-            color: #6b7280;
-            font-size: 0.8rem;
+        .card-type {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
-        .entity-name {
+        .card-type::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background-color: #22c55e;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .card-title {
             font-size: 1.25rem;
             font-weight: 700;
-            margin: 5px 0 10px 0;
-            color: #111827;
+            margin-bottom: 8px;
+            color: var(--text-main);
+            word-break: break-word;
         }
 
-        .entity-link {
-            color: #2563eb;
+        .card-url {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            background-color: var(--bg);
+            color: var(--text-main);
             text-decoration: none;
-            font-weight: 500;
-        }
-
-        .entity-link:hover {
-            text-decoration: underline;
-        }
-
-        .search-box {
-            width: 100%;
-            padding: 15px;
-            border: 1px solid #ddd;
             border-radius: 8px;
-            margin-bottom: 30px;
-            font-size: 1rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #e2e8f0;
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+            padding-top: 30px;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .loading {
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            padding: 40px;
         }
     </style>
 </head>
 
 <body>
 
-    <header>
-        <span class="badge">Open Entity Graph</span>
-        <h1>Verified Entity Registry</h1>
-        <p>Canonical structured data for AI/LLM ingestion.</p>
-    </header>
+    <div class="container">
+        <header>
+            <span class="badge">Verified Registry</span>
+            <h1>Open Entity Graph</h1>
+            <p class="subtitle">A decentralized source of truth for AI & LLMs. <br>Managed by Terekhin Digital Crew.</p>
+        </header>
 
-    <input type="text" id="search" class="search-box" placeholder="Search for organizations, events, or people..."
-        onkeyup="filterEntities()">
+        <div class="search-wrapper">
+            <input type="text" id="search" placeholder="Search entities (e.g., Risk Academy, Terekhin)..."
+                onkeyup="filterEntities()">
+        </div>
 
-    <div id="entity-list">
-        <p style="text-align:center; color:#888;">Loading registry...</p>
+        <div id="entity-grid" class="grid">
+            <div class="loading">Connecting to Knowledge Graph...</div>
+        </div>
+
+        <footer>
+            <p>Data provided under <a href="./LICENSE">CC0 1.0 Universal</a> License.</p>
+            <p>View source on <a href="https://github.com/terekhindc/open-entity-graph">GitHub</a>.</p>
+        </footer>
     </div>
 
     <script>
-        // URL к вашему index.jsonld (используем сырую ссылку на файл или относительную)
-        const DATA_URL = './index.jsonld';
+        const INDEX_URL = './index.jsonld';
 
-        async function loadData() {
+        async function initRegistry() {
+            const grid = document.getElementById('entity-grid');
+
             try {
-                const response = await fetch(DATA_URL);
-                const data = await response.json();
-                const container = document.getElementById('entity-list');
-                container.innerHTML = ''; // Clear loading
+                const response = await fetch(INDEX_URL);
+                if (!response.ok) throw new Error('Failed to load index');
 
-                // Получаем список ссылок из hasPart
+                const data = await response.json();
                 const entities = data.hasPart || [];
 
                 if (entities.length === 0) {
-                    container.innerHTML = '<p>No entities found in index.</p>';
+                    grid.innerHTML = '<div class="loading">No entities found in registry.</div>';
                     return;
                 }
 
-                // Рендерим каждую сущность (в реальности лучше подгружать детали из отдельных файлов, 
-                // но пока покажем ссылки из индекса)
-                entities.forEach(item => {
-                    // Пытаемся красиво отформатировать ID
-                    const idUrl = item['@id'];
-                    const displayTitle = idUrl.split('#')[0].replace('https://', '').replace(/\/$/, '');
-                    const typeGuess = idUrl.includes('person') || idUrl.includes('people') ? 'Person/Expert' : 'Organization/Event';
+                grid.innerHTML = ''; // Clear loading state
 
+                entities.forEach(entity => {
+                    const id = entity['@id'];
+
+                    // Простая логика определения имени из ID, если имени нет в индексе
+                    // https://site.com/#organization -> site.com
+                    let displayName = id;
+                    let displayType = "Entity";
+
+                    if (id.includes('person') || id.includes('people')) {
+                        displayType = "Person / Expert";
+                    } else if (id.includes('event')) {
+                        displayType = "Event Series";
+                    } else {
+                        displayType = "Organization";
+                    }
+
+                    // Пытаемся сделать красивое имя из URL
+                    try {
+                        const urlObj = new URL(id.split('#')[0]);
+                        displayName = urlObj.hostname.replace('www.', '');
+
+                        // Хак для красивого отображения конкретных кейсов
+                        if (displayName.includes('riskacademy')) displayName = "Risk Academy";
+                        if (displayName.includes('riskawareness')) displayName = "Risk Awareness Week";
+                        if (displayName.includes('terekhindt')) displayName = "Terekhin Digital Crew";
+                    } catch (e) {
+                        displayName = id;
+                    }
+
+                    // Ссылка на сам JSON файл (относительная или абсолютная)
+                    // Нам нужно найти реальный путь к файлу. 
+                    // В index.jsonld у нас ID. 
+                    // Пока ставим ссылку на сам ID, предполагая, что это URL сайта, 
+                    // но лучше вести на GitHub файл. 
+
+                    // Для MVP просто выводим карточку
                     const card = document.createElement('div');
                     card.className = 'card';
                     card.innerHTML = `
-                    <div class="entity-type">${typeGuess}</div>
-                    <div class="entity-name">${displayTitle}</div>
-                    <a href="${idUrl}" class="entity-link" target="_blank">View JSON-LD Data →</a>
+                    <div>
+                        <div class="card-type">${displayType}</div>
+                        <h3 class="card-title">${displayName}</h3>
+                        <div class="card-url">${id.split('#')[0]}</div>
+                    </div>
+                    <a href="${id}" target="_blank" class="btn">View Linked Data ↗</a>
                 `;
-                    container.appendChild(card);
+                    grid.appendChild(card);
                 });
 
             } catch (error) {
-                console.error('Error:', error);
-                document.getElementById('entity-list').innerText = 'Failed to load registry index. Ensure index.jsonld exists.';
+                console.error(error);
+                grid.innerHTML = `<div class="loading" style="color:red">Error loading registry index.<br>Ensure 'index.jsonld' exists in root.</div>`;
             }
         }
 
@@ -152,16 +300,19 @@
             const cards = document.getElementsByClassName('card');
 
             for (let i = 0; i < cards.length; i++) {
-                const txtValue = cards[i].textContent || cards[i].innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    cards[i].style.display = "";
+                const title = cards[i].querySelector('.card-title').innerText;
+                const url = cards[i].querySelector('.card-url').innerText;
+
+                if (title.toUpperCase().indexOf(filter) > -1 || url.toUpperCase().indexOf(filter) > -1) {
+                    cards[i].style.display = "flex";
                 } else {
                     cards[i].style.display = "none";
                 }
             }
         }
 
-        loadData();
+        // Start
+        initRegistry();
     </script>
 
 </body>
