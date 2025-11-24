@@ -1,0 +1,30 @@
+name: Data Quality Gate
+
+# Triggers: Run on push to main or on pull request
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'data/**'    # Trigger only if data changes
+      - 'scripts/**' # Or if validation logic changes
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'data/**'
+
+jobs:
+  validate-schema:
+    name: Validate JSON-LD Structure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Run Validation Script
+        run: |
+          python scripts/validate_json.py

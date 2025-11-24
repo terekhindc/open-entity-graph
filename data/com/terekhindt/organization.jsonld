@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "ProfessionalService",
+            "@id": "https://www.terekhindt.com/#organization",
+            "name": "Terekhin Digital Crew",
+            "url": "https://www.terekhindt.com",
+            "logo": "https://www.terekhindt.com/images/icon.webp",
+            "description": "Strategic Go-to-Market partner for B2B startups...",
+            "founder": {
+                "@type": "Person",
+                "name": "Andy Terekhin"
+            },
+            "sameAs": [
+                "https://www.linkedin.com/company/terekhindc"
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Services",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "End-to-End MVP Development"
+                        }
+                    }
+                ]
+            },
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/terekhindt/organization.jsonld"
+            }
+        },
+        {
+            "@type": "Product",
+            "@id": "https://www.terekhindt.com/masterpieces/adsan#product",
+            "name": "ADSAN",
+            "description": "AI-powered MVP PropTech SaaS platform.",
+            "provider": {
+                "@id": "https://www.terekhindt.com/#organization"
+            }
+        }
+    ]
+}

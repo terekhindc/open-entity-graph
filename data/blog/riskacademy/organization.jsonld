@@ -1,0 +1,18 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://riskacademy.blog/#organization",
+    "name": "RISK-ACADEMY",
+    "url": "https://riskacademy.blog",
+    "logo": "https://i0.wp.com/riskacademy.blog/wp-content/uploads/2017/01/riskacademy-eng-logo2.png",
+    "sameAs": [
+        "https://www.facebook.com/groups/riskacademy",
+        "https://www.linkedin.com/in/alexsidorenko/",
+        "https://www.youtube.com/channel/UCog9jkDZdiRps2w27MZ5Azg"
+    ],
+    "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/blog/riskacademy/organization.jsonld"
+    }
+}
