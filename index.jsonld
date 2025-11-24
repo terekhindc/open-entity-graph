@@ -20,6 +20,21 @@
         },
         {
             "@id": "https://riskawarenessweek.com/speakers/alex-sidorenko#person"
+        },
+        {
+            "@id": "https://www.terekhindt.com/#person-andy-terekhin"
+        },
+        {
+            "@id": "https://www.terekhindt.com/masterpieces/adsan#product"
+        },
+        {
+            "@id": "https://www.terekhindt.com/masterpieces/digital-ark#product"
+        },
+        {
+            "@id": "https://www.terekhindt.com/masterpieces/dual-ar-bridge#product"
+        },
+        {
+            "@id": "https://www.terekhindt.com/masterpieces/sales-office-in-pocket#product"
         }
     ]
 }
