@@ -3,11 +3,16 @@
     "@type": "Person",
     "@id": "https://www.terekhindt.com/#person-andy-terekhin",
     "name": "Andy Terekhin",
+    "alternateName": "Andrei Terekhin",
     "jobTitle": "Founder & CEO",
     "description": "Tech entrepreneur and Go-to-Market strategist specializing in B2B startups. Expert in bridging the gap between complex technologies (AI, AR, VR) and business growth. Pioneer in AI Visibility Marketing (AEO).",
     "url": "https://www.terekhindt.com",
     "image": "https://res.cloudinary.com/daeoqig4w/image/upload/v1764021988/Founder_fbstab.jpg",
-    "nationality": "Israel",
+    "nationality": {
+        "@type": "Country",
+        "name": "Israel",
+        "alternateName": "IL"
+    },
     "worksFor": {
         "@type": "Organization",
         "@id": "https://www.terekhindt.com/#organization"
