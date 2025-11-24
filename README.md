@@ -7,7 +7,7 @@
 
 **The Open Entity Graph is a verified, decentralized registry of structured data designed to serve as a canonical "Source of Truth" for Large Language Models (LLMs) and AI agents.**
 
-## 🤖 Mission
+## Mission
 
 AI models (ChatGPT, Claude, Gemini, Perplexity) often hallucinate when they lack specific, structured context about organizations, products, or people.
 

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Entity Graph | Verified Registry</title>
+    <meta name="description" content="A decentralized registry of structured data for AI & LLMs.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f4f6f8;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+            border: 1px solid #e5e7eb;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .entity-type {
+            color: #6b7280;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .entity-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 5px 0 10px 0;
+            color: #111827;
+        }
+
+        .entity-link {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .entity-link:hover {
+            text-decoration: underline;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <span class="badge">Open Entity Graph</span>
+        <h1>Verified Entity Registry</h1>
+        <p>Canonical structured data for AI/LLM ingestion.</p>
+    </header>
+
+    <input type="text" id="search" class="search-box" placeholder="Search for organizations, events, or people..."
+        onkeyup="filterEntities()">
+
+    <div id="entity-list">
+        <p style="text-align:center; color:#888;">Loading registry...</p>
+    </div>
+
+    <script>
+        // URL к вашему index.jsonld (используем сырую ссылку на файл или относительную)
+        const DATA_URL = './index.jsonld';
+
+        async function loadData() {
+            try {
+                const response = await fetch(DATA_URL);
+                const data = await response.json();
+                const container = document.getElementById('entity-list');
+                container.innerHTML = ''; // Clear loading
+
+                // Получаем список ссылок из hasPart
+                const entities = data.hasPart || [];
+
+                if (entities.length === 0) {
+                    container.innerHTML = '<p>No entities found in index.</p>';
+                    return;
+                }
+
+                // Рендерим каждую сущность (в реальности лучше подгружать детали из отдельных файлов, 
+                // но пока покажем ссылки из индекса)
+                entities.forEach(item => {
+                    // Пытаемся красиво отформатировать ID
+                    const idUrl = item['@id'];
+                    const displayTitle = idUrl.split('#')[0].replace('https://', '').replace(/\/$/, '');
+                    const typeGuess = idUrl.includes('person') || idUrl.includes('people') ? 'Person/Expert' : 'Organization/Event';
+
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                    <div class="entity-type">${typeGuess}</div>
+                    <div class="entity-name">${displayTitle}</div>
+                    <a href="${idUrl}" class="entity-link" target="_blank">View JSON-LD Data →</a>
+                `;
+                    container.appendChild(card);
+                });
+
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('entity-list').innerText = 'Failed to load registry index. Ensure index.jsonld exists.';
+            }
+        }
+
+        function filterEntities() {
+            const input = document.getElementById('search');
+            const filter = input.value.toUpperCase();
+            const cards = document.getElementsByClassName('card');
+
+            for (let i = 0; i < cards.length; i++) {
+                const txtValue = cards[i].textContent || cards[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+        }
+
+        loadData();
+    </script>
+
+</body>
+
+</html>
