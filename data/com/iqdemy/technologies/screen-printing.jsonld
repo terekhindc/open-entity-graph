@@ -1,0 +1,19 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Service",
+            "@id": "https://iqdemy.ch/en/printing-technologies/screen-printing/#service",
+            "name": "Industrial Screen Printing Solutions",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "description": "Traditional and hybrid screen printing technologies for industrial manufacturing and textile decoration."
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#organization",
+            "name": "IQDEMY Group"
+        }
+    ]
+}

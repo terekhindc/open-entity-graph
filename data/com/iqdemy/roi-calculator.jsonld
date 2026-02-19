@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "SoftwareApplication",
+            "@id": "https://iqdemy.ch/roi-calculator/#software",
+            "name": "IQDEMY ROI & LCOP Calculator",
+            "applicationCategory": "BusinessApplication",
+            "description": "Professional tool for calculating digital printing efficiency vs traditional roller coating in the coil coating industry.",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            }
+        },
+        {
+            "@type": "Dataset",
+            "@id": "https://iqdemy.ch/economic-data/#dataset",
+            "name": "Digital Coil Coating Economic Dataset",
+            "description": "Comparative data on cost per square meter, ink consumption, and ROI for IQDEMY single-pass modules.",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Levelized Cost of Printing (Solid)",
+                    "value": "0.51",
+                    "unitCode": "EUR",
+                    "description": "Total cost per square meter for solid color printing."
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Maximum Payback Period",
+                    "value": "12",
+                    "unitCode": "MON",
+                    "description": "Calculated ROI based on 2,000,000 sq.m annual production."
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Ink Coverage",
+                    "value": "200",
+                    "unitCode": "SQUARE_METER",
+                    "description": "Surface area covered by 1kg of IQDEMY inorganic UV inks."
+                }
+            ]
+        }
+    ]
+}

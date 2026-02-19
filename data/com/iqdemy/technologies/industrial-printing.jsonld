@@ -1,0 +1,19 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Service",
+            "@id": "https://iqdemy.ch/en/printing-technologies/industrial-printing/#service",
+            "name": "Industrial Digital Printing Solutions",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "description": "High-performance digital printing solutions for mass manufacturing across multiple industries including automotive, electronics, and construction."
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#organization",
+            "name": "IQDEMY Group"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "ResearchProject",
+            "@id": "https://iqdemy.ch/en/printing-technologies/bioprinting-technologies/live-cells-printing/#project",
+            "name": "Live Cells Printing for Pharmaceuticals",
+            "parentOrganization": {
+                "@id": "https://iqdemy.ch/#rd-division"
+            },
+            "description": "Innovative technology for high-precision printing of live cell cultures for drug testing and toxicological studies."
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#rd-division",
+            "name": "IQDEMY R&D Center"
+        }
+    ]
+}

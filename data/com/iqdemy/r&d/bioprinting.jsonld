@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchProject",
+      "@id": "https://iqdemy.ch/en/r-d/bioprinting-iq/#project",
+      "name": "IQDEMY Bioprinting Project",
+      "parentOrganization": { "@id": "https://iqdemy.ch/#rd-division" },
+      "description": "Research and development of 3D bioprinting systems for living cells and tissue engineering.",
+      "keywords": "3D Bioprinting, Bio-inks, Tissue Engineering, Regenerative Medicine"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#rd-division",
+      "name": "IQDEMY R&D Center"
+    }
+  ]
+}

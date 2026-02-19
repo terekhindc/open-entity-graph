@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://iqdemy.ch/en/printing-technologies/printing-on-curved-surfaces/#service",
+      "name": "Digital Printing on Curved Surfaces",
+      "provider": { "@id": "https://iqdemy.ch/#organization" },
+      "serviceType": "Industrial Inkjet Technology",
+      "description": "Advanced digital printing technology for complex 3D objects and curved surfaces using multi-axis control systems and specialized inks.",
+      "offers": {
+        "@type": "Offer",
+        "description": "Integration of robotic printing systems for automotive, consumer electronics, and decor."
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#organization",
+      "name": "IQDEMY Group"
+    }
+  ]
+}

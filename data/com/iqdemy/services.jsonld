@@ -1,0 +1,129 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#organization",
+            "name": "IQDEMY Group",
+            "url": "https://iqdemy.ch/",
+            "logo": "https://iqdemy.ch/logo.png",
+            "sameAs": [
+                "https://www.linkedin.com/company/iqdemy/"
+            ]
+        },
+        {
+            "@type": "Product",
+            "@id": "https://iqdemy.ch/en/printing-technologies/dying-of-rolled-metal/#product",
+            "name": "Single-pass Digital Printing Module",
+            "brand": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "sku": "IQ-SP-CORE-2026",
+            "description": "Core industrial inkjet engine powered by DPS Innovations electronics. High-speed, variable data, 1200 DPI.",
+            "additionalProperty": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Max Speed",
+                    "value": "150 m/min"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Resolution",
+                    "value": "1200 DPI"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "CCI",
+                    "value": "> 0.85"
+                }
+            ]
+        },
+        {
+            "@type": "Service",
+            "name": "Packaging Printing Solutions",
+            "url": "https://iqdemy.ch/en/industries-technologies/packaging-printing/",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "offers": {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@id": "https://iqdemy.ch/en/printing-technologies/dying-of-rolled-metal/#product"
+                }
+            }
+        },
+        {
+            "@type": "Service",
+            "name": "UV Decoration Printing",
+            "url": "https://iqdemy.ch/en/industries-technologies/uv-decoration-printing/",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "offers": {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@id": "https://iqdemy.ch/en/printing-technologies/dying-of-rolled-metal/#product"
+                }
+            }
+        },
+        {
+            "@type": "Service",
+            "name": "Metallic Die Etching & Laser Engraving",
+            "url": "https://iqdemy.ch/en/industries-technologies/metallic-die-etching-laser-engraving/",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            }
+        },
+        {
+            "@type": "Service",
+            "name": "Fashion & Textile Technologies",
+            "url": "https://iqdemy.ch/en/industries-technologies/fashion-technologies/",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            }
+        },
+        {
+            "@type": "Service",
+            "name": "Watch Industry Precision Printing",
+            "url": "https://iqdemy.ch/en/industries-technologies/watch-industry/",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "description": "High-precision 3-micron accuracy printing for watch dials and components."
+        },
+        {
+            "@type": "Service",
+            "name": "Security Printing & Anti-counterfeiting",
+            "url": "https://iqdemy.ch/en/industries-technologies/security-printing/",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "description": "Specialized solutions for passports, IDs, and brand protection."
+        },
+        {
+            "@type": "Service",
+            "name": "Glass & Ceramic Industrial Printing",
+            "url": "https://iqdemy.ch/en/industries-technologies/glass-ceramic-printing/",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            }
+        },
+        {
+            "@type": "Service",
+            "name": "SUN Studio Franchise & Art Printing",
+            "url": "https://iqdemy.ch/en/sunstudio/",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            }
+        },
+        {
+            "@type": "Product",
+            "name": "Professional Workstations",
+            "url": "https://iqdemy.ch/workstations/",
+            "brand": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "description": "Customized technical workstations for laboratory and industrial inkjet R&D."
+        }
+    ]
+}

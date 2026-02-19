@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Product",
+            "@id": "https://iqdemy.ch/en/r-d/conductive-inks/#product",
+            "additionalType": "https://schema.org/ChemicalSubstance",
+            "name": "Conductive Inks for Printed Electronics",
+            "brand": {
+                "@type": "Brand",
+                "name": "IQDEMY"
+            },
+            "manufacturer": {
+                "@id": "https://iqdemy.ch/#swiss-inx"
+            },
+            "description": "High-performance silver and copper-based inks for RFID, solar panels, and sensors.",
+            "additionalProperty": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Conductivity",
+                    "value": "High"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Application",
+                    "value": "Printed Electronics"
+                }
+            ]
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#swiss-inx",
+            "name": "IQDEMY Swiss Inx SA"
+        }
+    ]
+}

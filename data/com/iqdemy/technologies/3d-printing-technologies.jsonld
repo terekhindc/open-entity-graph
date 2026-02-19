@@ -1,0 +1,19 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Service",
+            "@id": "https://iqdemy.ch/en/printing-technologies/3d-printing-technologies/#service",
+            "name": "Industrial 3D Printing Technologies",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "description": "Advanced additive manufacturing solutions including stereolithography and multi-material inkjet 3D printing."
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#organization",
+            "name": "IQDEMY Group"
+        }
+    ]
+}

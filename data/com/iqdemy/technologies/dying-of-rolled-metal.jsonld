@@ -1,0 +1,114 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#organization"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://iqdemy.ch/en/printing-technologies/dying-of-rolled-metal/#product",
+      "name": "Inkjet-Dying System for Rolled Metal",
+      "brand": {
+        "@id": "https://iqdemy.ch/#organization"
+      },
+      "description": "Industrial Single-pass Digital Printing Module for Coil Coating Lines. Replaces legacy roller technology with high-efficiency UV-LED digital printing.",
+      "sku": "IQ-CCL-SP-2026",
+      "model": "CCL Project Single-Pass",
+      "image": "https://iqdemy.ch/path-to-image.jpg",
+      "subjectOf": {
+        "@type": "DataDownload",
+        "name": "CCL Technical 3D Model",
+        "contentUrl": "https://iqdemy.ch/models/ccl-module.step",
+        "encodingFormat": "model/step"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Cold Curing Index (CCI)",
+          "value": "0.85",
+          "description": "Calculated as CCI = E(poly) / E(total). Proves 85% energy efficiency vs legacy gas ovens."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Volume-agnostic LCOP",
+          "value": "0.51",
+          "unitCode": "USD",
+          "description": "Fixed printing cost per m2 regardless of MOQ."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Max Printing Speed",
+          "value": "150",
+          "unitCode": "MTR",
+          "description": "Competitive with analog roller lines."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Printing Resolution",
+          "value": "1200",
+          "unitCode": "E39",
+          "description": "Photo-quality seamless design capability."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Power Requirement",
+          "value": "45",
+          "unitCode": "KWT",
+          "description": "Peak power consumption at max load."
+        }
+      ],
+      "isSimilarTo": [
+        {
+          "@type": "Product",
+          "name": "Barberan Jetmaster"
+        },
+        {
+          "@type": "Product",
+          "name": "Hymmen JUPITER"
+        },
+        {
+          "@type": "Product",
+          "name": "Legacy Roller Coating Lines"
+        }
+      ],
+      "consumable": {
+        "@type": "ChemicalSubstance",
+        "name": "IQDEMY Inorganic UV Inks",
+        "description": "VOC-free inks with 50+ years outdoor lightfastness guarantee.",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Lightfastness",
+            "value": "P50Y"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "T-bend Flexibility",
+            "value": "0.5T"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://iqdemy.ch/roi-model/#dataset",
+      "name": "CCL Economic ROI Model",
+      "description": "Data for TCO and EBITDA calculation showing ROI < 1 year.",
+      "about": {
+        "@id": "https://iqdemy.ch/en/printing-technologies/dying-of-rolled-metal/#product"
+      },
+      "variableMeasured": [
+        "Energy Efficiency",
+        "Ink Consumption",
+        "Yield Rate"
+      ]
+    },
+    {
+      "@type": "QuoteAction",
+      "target": "https://iqdemy.ch/en/contacts/#request-quote",
+      "name": "Request Custom ROI Audit",
+      "actionStatus": "PotentialActionStatus"
+    }
+  ]
+}

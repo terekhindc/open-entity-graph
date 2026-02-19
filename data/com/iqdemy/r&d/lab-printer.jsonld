@@ -1,0 +1,27 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Product",
+            "@id": "https://iqdemy.ch/en/r-d/customized-equipment/lab-printer/#product",
+            "name": "IQDEMY Lab Printer (NEO)",
+            "brand": {
+                "@type": "Brand",
+                "name": "IQDEMY"
+            },
+            "manufacturer": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "category": "R&D Equipment / Laboratory Printers",
+            "description": "Universal laboratory inkjet printer for testing inks, materials, and digital printing processes.",
+            "isVariantOf": {
+                "@id": "https://iqdemy.ch/en/printing-technologies/dying-of-rolled-metal/#product"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#organization",
+            "name": "IQDEMY Group"
+        }
+    ]
+}

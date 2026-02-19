@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://iqdemy.ch/en/r-d/customized-equipment/#service",
+      "name": "Customized Industrial Equipment Engineering",
+      "provider": { "@id": "https://iqdemy.ch/#organization" },
+      "serviceType": "R&D Engineering",
+      "description": "Development and manufacturing of custom industrial digital printing systems tailored to specific industrial tasks.",
+      "offers": {
+        "@type": "Offer",
+        "description": "Individual engineering projects from concept to production line integration."
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#organization",
+      "name": "IQDEMY Group"
+    }
+  ]
+}

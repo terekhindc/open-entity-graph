@@ -1,0 +1,25 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#rd-division",
+            "name": "IQDEMY R&D Center",
+            "parentOrganization": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "description": "Research and development center of IQDEMY Group focusing on inkjet, chemistry, and biotech innovations.",
+            "knowsAbout": [
+                "Digital Printing Tech",
+                "Material Science",
+                "Bioprinting",
+                "Quantum Dots"
+            ]
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#organization",
+            "name": "IQDEMY Group"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#organization",
+            "name": "IQDEMY Group",
+            "legalName": "IQDEMY SA",
+            "url": "https://iqdemy.ch/",
+            "foundingDate": "1998",
+            "leiCode": "984500S491K69QN1MC67",
+            "vatID": "CHE-388.350.570",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Techno-Pôle 4",
+                "addressLocality": "Sierre",
+                "postalCode": "3960",
+                "addressCountry": "CH"
+            },
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Swiss Engineering Association"
+            },
+            "knowsAbout": [
+                "Industrial inkjet printing",
+                "UV-LED curing",
+                "Coil Coating technology",
+                "CAN bus control",
+                "Inorganic pigment synthesis"
+            ],
+            "brand": [
+                {
+                    "@type": "Brand",
+                    "name": "IQDEMY",
+                    "description": "Leading developer of inks, primers, and special printing equipment in Europe."
+                },
+                {
+                    "@type": "Brand",
+                    "name": "DPS Innovations",
+                    "description": "Global developer of control electronics and UV LED curing systems for inkjet."
+                }
+            ],
+            "subOrganization": [
+                {
+                    "@type": "Organization",
+                    "name": "DPS Innovations",
+                    "url": "https://dps-innovations.com/",
+                    "vatID": "CHE-260.827.122",
+                    "description": "Electronics and software division of IQDEMY Group."
+                },
+                {
+                    "@type": "Organization",
+                    "name": "IQDEMY Swiss Inx SA",
+                    "vatID": "CHE-369.169.745",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Chemin des Iles 10",
+                        "addressLocality": "Aigle",
+                        "postalCode": "1860",
+                        "addressCountry": "CH"
+                    },
+                    "description": "Chemistry and ink production division."
+                }
+            ]
+        }
+    ]
+}

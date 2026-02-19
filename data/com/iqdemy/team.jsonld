@@ -1,0 +1,142 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://iqdemy.ch/en/history/our-team/#webpage",
+      "url": "https://iqdemy.ch/en/history/our-team/",
+      "name": "IQDEMY Group Global Team",
+      "publisher": { "@id": "https://iqdemy.ch/#organization" },
+      "mainEntity": [
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#vladislav-mirchev",
+          "name": "Vladislav Mirchev",
+          "jobTitle": "Founder and President of IQDEMY Group",
+          "description": "Owner of core patents, focused on strategic innovation and university-backed R&D.",
+          "knowsAbout": ["Inkjet Technology", "Patent Strategy", "Industrial Engineering"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#natalia-stasyuk",
+          "name": "Natalia Stasyuk",
+          "jobTitle": "Chairwoman of the Board of Directors, CEO of DPS Innovations",
+          "description": "Leading global operations and legal/marketing strategy with an MBA background.",
+          "knowsAbout": ["Corporate Management", "Strategic Marketing", "Legal Compliance"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#luigi-pozzoli",
+          "name": "Luigi Pozzoli",
+          "jobTitle": "Independent Member of the Board, Special Consultant for CCL Project",
+          "description": "Founder of Otefal Group, expert with 50+ years in aluminum coil coating.",
+          "knowsAbout": ["Coil Coating", "Aluminum Treatment", "Industrial Strategy"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#joseph-mergui",
+          "name": "Joseph Mergui",
+          "jobTitle": "Independent Member of the Board, Shareholder of DPS Innovations",
+          "description": "Founder of Caldera RIP, a global expert in digital printing software workflows.",
+          "knowsAbout": ["RIP Software", "Digital Workflow", "Printing Industry Strategy"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#hans-peter-tobler",
+          "name": "Hans-Peter Tobler",
+          "jobTitle": "Independent Member of the Board, Shareholder of DPS Innovations",
+          "description": "Chairman of ErgoSoft AG, leading authority in color management software.",
+          "knowsAbout": ["Color Management", "Imaging Technology", "Software Development"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#enrico-rampinelli",
+          "name": "Enrico Rampinelli",
+          "jobTitle": "Strategic Board Advisor, Security Printing",
+          "description": "Document security expert with 50+ years experience in passports and ID documents.",
+          "knowsAbout": ["Security Printing", "Anti-counterfeiting", "Identity Documents"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#olga-kondrateva",
+          "name": "Olga Kondrateva",
+          "jobTitle": "Member of the Board, Vice-president, VIP Account Director",
+          "description": "Focusing on high-level international client relations and corporate governance.",
+          "knowsAbout": ["VIP Account Management", "International Relations"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#sergey-tyrov-board",
+          "name": "Sergey Tyrov",
+          "jobTitle": "Member of the Board, Executive Director of Russian Division",
+          "description": "Managing regional operations and legal frameworks for the holding.",
+          "knowsAbout": ["Operational Management", "Law", "Tech Administration"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#elena-valter",
+          "name": "Elena Valter",
+          "jobTitle": "Member of the Board, Production Director of IQDEMY Holding",
+          "description": "Economist-led production management ensuring manufacturing efficiency.",
+          "knowsAbout": ["Production Planning", "Economic Analysis", "Manufacturing"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#pavel-denisov",
+          "name": "Pavel Denisov",
+          "jobTitle": "Member of the Board, Director for Development in Asia",
+          "description": "Managing high-tech industrial projects from the Hong Kong regional office.",
+          "knowsAbout": ["Asia Market Development", "Social and Economic Studies"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#olesya-parfenova",
+          "name": "Olesya Parfenova",
+          "jobTitle": "Chief Business Development Officer (CBDO), VP of Sales",
+          "description": "Driving global sales growth and high-level business expansion.",
+          "knowsAbout": ["Sales Strategy", "Business Expansion", "Lead Generation"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#andrew-dyachenko",
+          "name": "Andrew Dyachenko",
+          "jobTitle": "Technical Director of DPS Innovations",
+          "description": "Architect of control electronics and specialized inkjet hardware solutions.",
+          "knowsAbout": ["Electronics Engineering", "Embedded Systems", "Hardware Design"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#ilya-dobretsky",
+          "name": "Ilya Dobretsky",
+          "jobTitle": "Project Manager",
+          "description": "Coordinating complex engineering and installation projects globally.",
+          "knowsAbout": ["Project Management", "Technical Coordination"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#andrew-skvorcov",
+          "name": "Andrew Skvorcov",
+          "jobTitle": "Director of Service Center of IQDEMY",
+          "description": "Head of global technical support and maintenance operations.",
+          "knowsAbout": ["Technical Service", "Post-sales Support", "Maintenance"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#sergey-tyrov-quantum",
+          "name": "Sergey Tyrov",
+          "jobTitle": "Head of Quantum Technology R&D Project Team",
+          "description": "Directing cutting-edge research in functional materials and quantum dots.",
+          "knowsAbout": ["Quantum Dots", "R&D Strategy", "Nanotechnology"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://iqdemy.ch/en/history/our-team/#sergey-putilin",
+          "name": "Sergey Putilin",
+          "jobTitle": "Vice-president of Quantum Technology R&D Project",
+          "description": "Key expert in implementing quantum technologies into industrial solutions.",
+          "knowsAbout": ["Quantum Materials", "Applied Science", "Technical Innovation"]
+        }
+      ]
+    }
+  ]
+}

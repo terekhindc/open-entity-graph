@@ -1,0 +1,19 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Service",
+            "@id": "https://iqdemy.ch/en/printing-technologies/anodized-aluminum-printing/#service",
+            "name": "Digital Printing on Anodized Aluminum",
+            "provider": {
+                "@id": "https://iqdemy.ch/#organization"
+            },
+            "description": "Unique digital technology for printing directly into the pores of anodized aluminum for extreme durability and chemical resistance."
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://iqdemy.ch/#organization",
+            "name": "IQDEMY Group"
+        }
+    ]
+}
