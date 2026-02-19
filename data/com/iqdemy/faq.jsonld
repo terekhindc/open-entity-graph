@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is the ROI for an IQDEMY Digital Coil Coating module?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ROI is less than 1 year for production volumes of 2,000,000 m2 annually. This is achieved through a significant reduction in ink consumption (3-12g/m2) and energy savings of up to 70%."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the warranty for outdoor metal printing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "IQDEMY offers a 50+ year warranty on anti-fade and durability when using our proprietary inorganic UV inks, designed specifically for architectural steel and aluminum."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How does the system handle industrial dust and nozzle clogging?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The module includes protective industrial housings, overpressure air zones to repel dust, and an automated printhead maintenance station for consistent 24/7 operation."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can the digital line match traditional coil coating speeds?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, our single-pass technology supports standard speeds of 60 m/min and is scalable up to 240 m/min, depending on the number of printhead modules integrated."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is the coating flexible enough for metal bending (T-bend)?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our ink chemistry is engineered for extreme flexibility, maintaining integrity during 0.5T bend tests without cracking or loss of adhesion."
+            }
+        }
+    ]
+}
