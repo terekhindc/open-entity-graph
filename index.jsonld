@@ -35,6 +35,18 @@
         },
         {
             "@id": "https://www.terekhindt.com/masterpieces/sales-office-in-pocket#product"
+        },
+        {
+            "@id": "https://iqdemy.ch/#organization"
+        },
+        {
+            "@id": "https://iqdemy.ch/en/printing-technologies/dying-of-rolled-metal/#product"
+        },
+        {
+            "@id": "https://iqdemy.ch/#rd-division"
+        },
+        {
+            "@id": "https://iqdemy.ch/roi-calculator/#software"
         }
     ]
 }

@@ -251,6 +251,10 @@
                         displayType = "Person / Expert";
                     } else if (id.includes('event')) {
                         displayType = "Event Series";
+                    } else if (id.includes('#product') || id.includes('#software')) {
+                        displayType = "Product / Solution";
+                    } else if (id.includes('#rd-division')) {
+                        displayType = "R&D Center";
                     } else {
                         displayType = "Organization";
                     }
@@ -264,6 +268,12 @@
                         if (displayName.includes('riskacademy')) displayName = "Risk Academy";
                         if (displayName.includes('riskawareness')) displayName = "Risk Awareness Week";
                         if (displayName.includes('terekhindt')) displayName = "Terekhin Digital Crew";
+
+                        // IQDEMY Special Cases
+                        if (id.includes('roi-calculator')) displayName = "IQDEMY ROI Calculator";
+                        else if (id.includes('dying-of-rolled-metal')) displayName = "CCL Project (Coil Coating)";
+                        else if (id.includes('#rd-division')) displayName = "IQDEMY R&D Center";
+                        else if (displayName.includes('iqdemy')) displayName = "IQDEMY Group";
                     } catch (e) {
                         displayName = id;
                     }
