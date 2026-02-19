@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://iqdemy.ch/ccl_en/#product",
+      "mainEntityOfPage": "https://iqdemy.ch/ccl_en/",
+      "name": "IQDEMY Single-Pass Digital Printing Module (CCL Project)",
+      "brand": { "@id": "https://iqdemy.ch/#organization" },
+      "manufacturer": { "@id": "https://iqdemy.ch/#organization" },
+      "description": "Industrial digital inkjet module for high-speed coil coating lines. Powered by DPS Innovations electronics and inorganic UV inks. Replaces analog rollers with photographic quality 1200 DPI printing.",
+      "sku": "IQ-CCL-SP-2026",
+      "image": "https://iqdemy.ch/images/ccl-module-specs.jpg",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Standard Line Speed", "value": "60", "unitCode": "MTR", "description": "Standard proposal speed." },
+        { "@type": "PropertyValue", "name": "Maximum Technical Speed", "value": "240", "unitCode": "MTR", "description": "Scalable high-speed architecture." },
+        { "@type": "PropertyValue", "name": "Printing Resolution", "value": "1200", "unitCode": "E39", "description": "Photographic quality DPI." },
+        { "@type": "PropertyValue", "name": "Color Gamut (CRYVK)", "value": "> 1,000,000,000", "description": "Over 1 billion colors with Cyan, Red, Yellow, Violet, Black scheme." },
+        { "@type": "PropertyValue", "name": "Maximum Web Width", "value": "2550", "unitCode": "MMT", "description": "Standard width 1200 mm, expandable up to 2550 mm." },
+        { "@type": "PropertyValue", "name": "Maximum Material Thickness", "value": "1.2", "unitCode": "MMT" },
+        { "@type": "PropertyValue", "name": "Printhead Capacity", "value": "120", "unitCode": "C62", "description": "Scalable up to 120 industrial piezo heads." },
+        { "@type": "PropertyValue", "name": "Warranty (Anti-Fade)", "value": "50", "unitCode": "ANN", "description": "50+ year outdoor durability guarantee." },
+        { "@type": "PropertyValue", "name": "ROI Period", "value": "1", "unitCode": "ANN", "description": "Return on investment in less than 1 year based on 2M sqm annual volume." },
+        { "@type": "PropertyValue", "name": "Energy Savings", "value": "70", "unitCode": "P1", "description": "Total energy reduction compared to gas thermal ovens." },
+        { "@type": "PropertyValue", "name": "Curing Efficiency", "value": "10", "unitCode": "C62", "description": "Curing process consumes 10+ times less energy than legacy systems." },
+        { "@type": "PropertyValue", "name": "Lead Time", "value": "12-14", "unitCode": "MON", "description": "Total time for production, logistics, and installation." },
+        { "@type": "PropertyValue", "name": "Line Footprint", "value": "40-50", "unitCode": "MTR", "description": "Total line length." }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://iqdemy.ch/ccl_en/#economic-dataset",
+      "name": "CCL Economic Performance Dataset",
+      "description": "Verified economic metrics for Digital vs. Roller coating.",
+      "about": { "@id": "https://iqdemy.ch/ccl_en/#product" },
+      "variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "name": "Solid Color Print Cost",
+          "value": "0.51",
+          "unitCode": "EUR",
+          "description": "Vs traditional €1.54/sqm."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Design Print Cost (Average)",
+          "value": "0.34",
+          "unitCode": "EUR",
+          "description": "Vs traditional €2.17/sqm."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Ink Consumption Rate",
+          "value": "3-12",
+          "unitText": "g/m2",
+          "description": "Ultra-low consumption for 100% coverage."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Bulk Ink Price",
+          "value": "85",
+          "unitCode": "EUR",
+          "description": "Per kg for annual volumes over 100 tons."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Ink Coverage Efficiency",
+          "value": "200",
+          "unitText": "sqm/kg",
+          "description": "Against 13 sqm/kg for traditional roller paint."
+        }
+      ]
+    }
+  ]
+}
