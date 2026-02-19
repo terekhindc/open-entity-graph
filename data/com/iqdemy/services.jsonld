@@ -5,6 +5,11 @@
             "@type": "Organization",
             "@id": "https://iqdemy.ch/#organization",
             "name": "IQDEMY Group",
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/services.jsonld"
+            },
             "url": "https://iqdemy.ch/",
             "logo": "https://iqdemy.ch/logo.png",
             "sameAs": [
@@ -15,6 +20,11 @@
             "@type": "Product",
             "@id": "https://iqdemy.ch/en/printing-technologies/dying-of-rolled-metal/#product",
             "name": "Single-pass Digital Printing Module",
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/services.jsonld"
+            },
             "brand": {
                 "@id": "https://iqdemy.ch/#organization"
             },
@@ -40,6 +50,7 @@
         },
         {
             "@type": "Service",
+            "@id": "https://iqdemy.ch/en/industries-technologies/packaging-printing/#service",
             "name": "Packaging Printing Solutions",
             "url": "https://iqdemy.ch/en/industries-technologies/packaging-printing/",
             "provider": {
@@ -54,6 +65,7 @@
         },
         {
             "@type": "Service",
+            "@id": "https://iqdemy.ch/en/industries-technologies/uv-decoration-printing/#service",
             "name": "UV Decoration Printing",
             "url": "https://iqdemy.ch/en/industries-technologies/uv-decoration-printing/",
             "provider": {
@@ -68,6 +80,7 @@
         },
         {
             "@type": "Service",
+            "@id": "https://iqdemy.ch/en/industries-technologies/metallic-die-etching-laser-engraving/#service",
             "name": "Metallic Die Etching & Laser Engraving",
             "url": "https://iqdemy.ch/en/industries-technologies/metallic-die-etching-laser-engraving/",
             "provider": {
@@ -76,6 +89,7 @@
         },
         {
             "@type": "Service",
+            "@id": "https://iqdemy.ch/en/industries-technologies/fashion-technologies/#service",
             "name": "Fashion & Textile Technologies",
             "url": "https://iqdemy.ch/en/industries-technologies/fashion-technologies/",
             "provider": {
@@ -84,6 +98,7 @@
         },
         {
             "@type": "Service",
+            "@id": "https://iqdemy.ch/en/industries-technologies/watch-industry/#service",
             "name": "Watch Industry Precision Printing",
             "url": "https://iqdemy.ch/en/industries-technologies/watch-industry/",
             "provider": {
@@ -93,6 +108,7 @@
         },
         {
             "@type": "Service",
+            "@id": "https://iqdemy.ch/en/industries-technologies/security-printing/#service",
             "name": "Security Printing & Anti-counterfeiting",
             "url": "https://iqdemy.ch/en/industries-technologies/security-printing/",
             "provider": {
@@ -102,6 +118,7 @@
         },
         {
             "@type": "Service",
+            "@id": "https://iqdemy.ch/en/industries-technologies/glass-ceramic-printing/#service",
             "name": "Glass & Ceramic Industrial Printing",
             "url": "https://iqdemy.ch/en/industries-technologies/glass-ceramic-printing/",
             "provider": {
@@ -110,6 +127,7 @@
         },
         {
             "@type": "Service",
+            "@id": "https://iqdemy.ch/en/sunstudio/#service",
             "name": "SUN Studio Franchise & Art Printing",
             "url": "https://iqdemy.ch/en/sunstudio/",
             "provider": {
@@ -118,7 +136,13 @@
         },
         {
             "@type": "Product",
+            "@id": "https://iqdemy.ch/workstations/#product",
             "name": "Professional Workstations",
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/services.jsonld"
+            },
             "url": "https://iqdemy.ch/workstations/",
             "brand": {
                 "@id": "https://iqdemy.ch/#organization"

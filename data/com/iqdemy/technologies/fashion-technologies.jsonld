@@ -1,20 +1,25 @@
 {
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "Service",
-            "@id": "https://iqdemy.ch/en/printing-technologies/fashion-technologies/#service",
-            "name": "Digital Printing for Fashion Industry",
-            "provider": {
-                "@id": "https://iqdemy.ch/#organization"
-            },
-            "industry": "Fashion and Textiles",
-            "description": "Inkjet solutions for direct printing on textiles, leather, and fashion accessories with specialty UV and eco-inks."
-        },
-        {
-            "@type": "Organization",
-            "@id": "https://iqdemy.ch/#organization",
-            "name": "IQDEMY Group"
-        }
-    ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://iqdemy.ch/en/printing-technologies/fashion-technologies/#service",
+      "name": "Digital Printing for Fashion Industry",
+      "provider": {
+        "@id": "https://iqdemy.ch/#organization"
+      },
+      "industry": "Fashion and Textiles",
+      "description": "Inkjet solutions for direct printing on textiles, leather, and fashion accessories with specialty UV and eco-inks."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#organization",
+      "name": "IQDEMY Group",
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/organization.jsonld"
+      }
+    }
+  ]
 }

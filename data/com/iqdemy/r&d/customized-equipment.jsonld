@@ -5,7 +5,9 @@
       "@type": "Service",
       "@id": "https://iqdemy.ch/en/r-d/customized-equipment/#service",
       "name": "Customized Industrial Equipment Engineering",
-      "provider": { "@id": "https://iqdemy.ch/#organization" },
+      "provider": {
+        "@id": "https://iqdemy.ch/#organization"
+      },
       "serviceType": "R&D Engineering",
       "description": "Development and manufacturing of custom industrial digital printing systems tailored to specific industrial tasks.",
       "offers": {
@@ -16,7 +18,12 @@
     {
       "@type": "Organization",
       "@id": "https://iqdemy.ch/#organization",
-      "name": "IQDEMY Group"
+      "name": "IQDEMY Group",
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/organization.jsonld"
+      }
     }
   ]
 }

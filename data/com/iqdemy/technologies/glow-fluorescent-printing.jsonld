@@ -5,14 +5,23 @@
       "@type": "Service",
       "@id": "https://iqdemy.ch/en/printing-technologies/glow-fluorescent-printing/#service",
       "name": "Glow and Fluorescent Printing Technologies",
-      "provider": { "@id": "https://iqdemy.ch/#swiss-inx" },
+      "provider": {
+        "@id": "https://iqdemy.ch/#swiss-inx"
+      },
       "description": "Specialized printing solutions using luminescent and fluorescent inks for security, decoration, and advertising.",
-      "isRelatedTo": { "@id": "https://iqdemy.ch/en/r-d/quantum-technologies/#project" }
+      "isRelatedTo": {
+        "@id": "https://iqdemy.ch/en/r-d/quantum-technologies/#project"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://iqdemy.ch/#swiss-inx",
-      "name": "IQDEMY Swiss Inx SA"
+      "name": "IQDEMY Swiss Inx SA",
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/organization.jsonld"
+      }
     }
   ]
 }

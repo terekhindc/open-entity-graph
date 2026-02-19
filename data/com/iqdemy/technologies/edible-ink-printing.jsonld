@@ -1,20 +1,25 @@
 {
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "Service",
-            "@id": "https://iqdemy.ch/en/printing-technologies/edible-ink-printing/#service",
-            "name": "Digital Edible Ink Printing",
-            "provider": {
-                "@id": "https://iqdemy.ch/#organization"
-            },
-            "industry": "Food and Beverage",
-            "description": "Eco-friendly and food-safe digital printing technology for confectionery and edible packaging."
-        },
-        {
-            "@type": "Organization",
-            "@id": "https://iqdemy.ch/#organization",
-            "name": "IQDEMY Group"
-        }
-    ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://iqdemy.ch/en/printing-technologies/edible-ink-printing/#service",
+      "name": "Digital Edible Ink Printing",
+      "provider": {
+        "@id": "https://iqdemy.ch/#organization"
+      },
+      "industry": "Food and Beverage",
+      "description": "Eco-friendly and food-safe digital printing technology for confectionery and edible packaging."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#organization",
+      "name": "IQDEMY Group",
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/organization.jsonld"
+      }
+    }
+  ]
 }

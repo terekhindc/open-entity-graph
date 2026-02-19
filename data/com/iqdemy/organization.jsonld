@@ -5,6 +5,11 @@
             "@type": "Organization",
             "@id": "https://iqdemy.ch/#organization",
             "name": "IQDEMY Group",
+            "subjectOf": {
+                "@type": "CreativeWork",
+                "name": "Open Entity Graph Record",
+                "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/organization.jsonld"
+            },
             "legalName": "IQDEMY SA",
             "url": "https://iqdemy.ch/",
             "foundingDate": "1998",

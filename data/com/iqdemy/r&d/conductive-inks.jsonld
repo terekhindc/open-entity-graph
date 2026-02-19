@@ -1,36 +1,46 @@
 {
-    "@context": "https://schema.org",
-    "@graph": [
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://iqdemy.ch/en/r-d/conductive-inks/#product",
+      "additionalType": "https://schema.org/ChemicalSubstance",
+      "name": "Conductive Inks for Printed Electronics",
+      "brand": {
+        "@type": "Brand",
+        "name": "IQDEMY"
+      },
+      "manufacturer": {
+        "@id": "https://iqdemy.ch/#swiss-inx"
+      },
+      "description": "High-performance silver and copper-based inks for RFID, solar panels, and sensors.",
+      "additionalProperty": [
         {
-            "@type": "Product",
-            "@id": "https://iqdemy.ch/en/r-d/conductive-inks/#product",
-            "additionalType": "https://schema.org/ChemicalSubstance",
-            "name": "Conductive Inks for Printed Electronics",
-            "brand": {
-                "@type": "Brand",
-                "name": "IQDEMY"
-            },
-            "manufacturer": {
-                "@id": "https://iqdemy.ch/#swiss-inx"
-            },
-            "description": "High-performance silver and copper-based inks for RFID, solar panels, and sensors.",
-            "additionalProperty": [
-                {
-                    "@type": "PropertyValue",
-                    "name": "Conductivity",
-                    "value": "High"
-                },
-                {
-                    "@type": "PropertyValue",
-                    "name": "Application",
-                    "value": "Printed Electronics"
-                }
-            ]
+          "@type": "PropertyValue",
+          "name": "Conductivity",
+          "value": "High"
         },
         {
-            "@type": "Organization",
-            "@id": "https://iqdemy.ch/#swiss-inx",
-            "name": "IQDEMY Swiss Inx SA"
+          "@type": "PropertyValue",
+          "name": "Application",
+          "value": "Printed Electronics"
         }
-    ]
+      ],
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/r&d/conductive-inks.jsonld"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#swiss-inx",
+      "name": "IQDEMY Swiss Inx SA",
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/organization.jsonld"
+      }
+    }
+  ]
 }

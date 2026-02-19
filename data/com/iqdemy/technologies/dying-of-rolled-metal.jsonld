@@ -3,7 +3,12 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://iqdemy.ch/#organization"
+      "@id": "https://iqdemy.ch/#organization",
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/organization.jsonld"
+      }
     },
     {
       "@type": "Product",
@@ -16,12 +21,19 @@
       "sku": "IQ-CCL-SP-2026",
       "model": "CCL Project Single-Pass",
       "image": "https://iqdemy.ch/path-to-image.jpg",
-      "subjectOf": {
-        "@type": "DataDownload",
-        "name": "CCL Technical 3D Model",
-        "contentUrl": "https://iqdemy.ch/models/ccl-module.step",
-        "encodingFormat": "model/step"
-      },
+      "subjectOf": [
+        {
+          "@type": "DataDownload",
+          "name": "CCL Technical 3D Model",
+          "contentUrl": "https://iqdemy.ch/models/ccl-module.step",
+          "encodingFormat": "model/step"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Open Entity Graph Record",
+          "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/iqdemy/technologies/dying-of-rolled-metal.jsonld"
+        }
+      ],
       "additionalProperty": [
         {
           "@type": "PropertyValue",
@@ -108,7 +120,8 @@
       "@type": "QuoteAction",
       "target": "https://iqdemy.ch/en/contacts/#request-quote",
       "name": "Request Custom ROI Audit",
-      "actionStatus": "PotentialActionStatus"
+      "actionStatus": "PotentialActionStatus",
+      "@id": "https://iqdemy.ch/dying-of-rolled-metal/#quoteaction-3"
     }
   ]
 }
