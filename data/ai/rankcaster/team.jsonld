@@ -1,0 +1,29 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Person",
+            "@id": "https://rankcaster.ai/#person-andy",
+            "name": "Andy Terekhin",
+            "jobTitle": "CEO",
+            "worksFor": {
+                "@id": "https://rankcaster.ai/#organization"
+            },
+            "sameAs": [
+                "https://www.linkedin.com/in/andyterekhin/"
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://rankcaster.ai/#person-yusuf",
+            "name": "Yusuf Salam",
+            "jobTitle": "CTO",
+            "worksFor": {
+                "@id": "https://rankcaster.ai/#organization"
+            },
+            "sameAs": [
+                "https://www.linkedin.com/in/yusufsalam/"
+            ]
+        }
+    ]
+}

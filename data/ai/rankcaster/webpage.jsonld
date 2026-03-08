@@ -1,0 +1,107 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "https://rankcaster.ai/#website",
+            "url": "https://rankcaster.ai",
+            "name": "RankCaster AI",
+            "description": "The First Platform for AI Visibility Marketing and Intent Injection",
+            "publisher": {
+                "@id": "https://rankcaster.ai/#organization"
+            },
+            "inLanguage": [
+                "en-US",
+                "ru-RU",
+                "ar",
+                "he",
+                "es"
+            ]
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://rankcaster.ai/#webpage",
+            "url": "https://rankcaster.ai",
+            "name": "Make AI Recommend You | RankCaster AI",
+            "headline": "Make AI Recommend You.",
+            "description": "RankCaster AI — The First Platform for AI Visibility Marketing and Intent Injection. Command your brand’s recommendations across ChatGPT, Gemini, Perplexity, DeepSeek, and beyond.",
+            "isPartOf": {
+                "@id": "https://rankcaster.ai/#website"
+            },
+            "about": {
+                "@id": "https://rankcaster.ai/#organization"
+            },
+            "mainEntity": {
+                "@id": "https://rankcaster.ai/#software"
+            },
+            "breadcrumb": {
+                "@id": "https://rankcaster.ai/#breadcrumb"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://rankcaster.ai/#logo"
+            },
+            "mentions": [
+                {
+                    "@id": "https://rankcaster.ai/#service-seo"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#service-pr"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#service-enterprise"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#methodology"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#faq"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#investment-info"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#person-andy"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#person-yusuf"
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://rankcaster.ai/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Product",
+                    "item": "https://rankcaster.ai/#product"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Solutions",
+                    "item": "https://rankcaster.ai/#solutions"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Pricing",
+                    "item": "https://rankcaster.ai/pricing"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Investors",
+                    "item": "https://rankcaster.ai/#investors"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "name": "Blog",
+                    "item": "https://rankcaster.ai/blog"
+                }
+            ]
+        }
+    ]
+}

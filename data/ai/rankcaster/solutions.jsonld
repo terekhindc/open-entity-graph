@@ -1,0 +1,79 @@
+[
+    {
+        "@type": "SoftwareApplication",
+        "@id": "https://rankcaster.ai/#platform",
+        "name": "RankCaster AI Platform",
+        "softwareVersion": "1.0",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web-based",
+        "url": "https://platform.rankcaster.ai",
+        "author": {
+            "@id": "https://rankcaster.ai/#organization"
+        },
+        "offers": {
+            "@id": "https://rankcaster.ai/#pricing-aggregate"
+        },
+        "review": [
+            {
+                "@id": "https://rankcaster.ai/#review-olga"
+            },
+            {
+                "@id": "https://rankcaster.ai/#review-rusfet"
+            }
+        ]
+    },
+    {
+        "@type": "SoftwareApplication",
+        "@id": "https://rankcaster.ai/#beta",
+        "name": "RankCaster AI Beta",
+        "softwareVersion": "Beta",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web-based",
+        "url": "https://beta.rankcaster.ai",
+        "author": {
+            "@id": "https://rankcaster.ai/#organization"
+        }
+    },
+    {
+        "@type": "Service",
+        "@id": "https://rankcaster.ai/#service-seo",
+        "name": "AI Visibility Marketing for SEO Agencies",
+        "description": "Helps SEO agencies increase visibility in GEO and AEO search results using AI-driven brand recommendation technology.",
+        "areaServed": [
+            "US",
+            "EU",
+            "Middle East"
+        ],
+        "provider": {
+            "@id": "https://rankcaster.ai/#organization"
+        }
+    },
+    {
+        "@type": "Service",
+        "@id": "https://rankcaster.ai/#service-pr",
+        "name": "AI Visibility Marketing for PR/GR Agencies",
+        "description": "Helps PR and GR agencies increase visibility in GEO and AEO search results using AI-driven brand recommendation technology.",
+        "areaServed": [
+            "US",
+            "EU",
+            "Middle East"
+        ],
+        "provider": {
+            "@id": "https://rankcaster.ai/#organization"
+        }
+    },
+    {
+        "@type": "Service",
+        "@id": "https://rankcaster.ai/#service-enterprise",
+        "name": "AI Visibility Marketing for Enterprise",
+        "description": "Helps enterprises increase visibility in GEO and AEO search results using AI-driven brand recommendation technology.",
+        "areaServed": [
+            "US",
+            "EU",
+            "Middle East"
+        ],
+        "provider": {
+            "@id": "https://rankcaster.ai/#organization"
+        }
+    }
+]

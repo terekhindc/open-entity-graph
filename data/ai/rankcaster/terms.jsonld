@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "@id": "https://rankcaster.ai/#methodology",
+    "name": "AI Intent-to-Value Framework (AIVF) v1.9 ",
+    "author": {
+        "@id": "https://rankcaster.ai/#person-andy"
+    },
+    "hasDefinedTerm": [
+        {
+            "@type": "DefinedTerm",
+            "@id": "https://rankcaster.ai/#term-apr",
+            "name": "APR (AI Presence Rate)",
+            "description": "Primary metric for brand sovereignty. Formula: $$APR = \\frac{Entity Mentions}{Total Test Runs} \\times 100\\%$$"
+        },
+        {
+            "@type": "DefinedTerm",
+            "@id": "https://rankcaster.ai/#term-pvs",
+            "name": "PVS (Predictive Value Score)",
+            "description": "Mathematical assessment of prompt ROI potential. Formula: $$PVS = (SEO Score \\times AI Multiplier \\times Commercial Multiplier) + Pain Score + (Social Score \\times 2)$$"
+        },
+        {
+            "@type": "DefinedTerm",
+            "@id": "https://rankcaster.ai/#term-roai",
+            "name": "ROAI (Return on AI)",
+            "description": "Financial efficiency of AI strategies. Formula: $$ROAI = \\frac{(Total APR Score \\times Estimated Search Volume \\times Conversion Rate Proxy) - Content Cost}{Content Cost}$$"
+        },
+        {
+            "@type": "DefinedTerm",
+            "@id": "https://rankcaster.ai/#term-competitor-displacement",
+            "name": "Competitor Displacement",
+            "description": "Strategic update focus: shift from 'User Assistance' to poaching clients."
+        },
+        {
+            "@type": "DefinedTerm",
+            "@id": "https://rankcaster.ai/#term-shadow-prompts",
+            "name": "Shadow Prompts",
+            "description": "Prompts addressing internal dialogues users are inhibited from articulating publicly."
+        }
+    ]
+}

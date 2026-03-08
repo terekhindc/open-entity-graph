@@ -1,0 +1,102 @@
+{
+    "@type": "FAQPage",
+    "@id": "https://rankcaster.ai/#faq",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is AI Visibility Marketing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is the process of managing brand recommendations within neural network responses. Unlike SEO, which fights for links, the goal here is to control how the AI represents your brand during its dialogue with the user."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is GEO (Generative Engine Optimization)?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "GEO is deep optimization for generative engines (ChatGPT, Claude), aimed at embedding the brand into the context of LLM responses. It replaces traditional text optimization methods with work on semantic axioms and knowledge graphs."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is AEO (Answer Engine Optimization)?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "AEO is optimization for 'answer engines' (Perplexity, Gemini), where it is critically important for the brand to appear in the direct answer block and the list of cited sources."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I start working with RankCaster AI?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The process is deployed in five stages, each corresponding to a section of the platform: Demand Capture, Predictive Analytics (PVS), Precision Monitoring (APR), Source Mapping, and Agentic Web preparation using MCP Layer and Knowledge Graph Constructor."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I segment visibility by models, regions, or audiences?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "By Models: Data is displayed separately for GPT, Gemini, and other AI. By Audiences: Automatically segments by customer archetypes analyzing specific pain points and triggers. Regions: Supports worldwide campaigns and campaigns at the country or city level."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the difference between brand visibility and source visibility metrics?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Brand Visibility (APR) shows your 'Share of Voice' — the percentage of AI responses mentioning your brand. Source Visibility reports original source domains cited by the AI, showing the number of citations per source (e.g., Reddit — 352 times, Wikipedia — 267 times)."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do source citations work?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "AI forms an answer based on sources with the highest 'weight.' The system scans outputs, finds these sources, and ranks them by citation frequency, helping you understand where your brand should be present."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is PVS Score and why is it needed?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Predictive Value Score (PVS) is a mathematical assessment of prompt value based on audience pain points, frequency, and social response. It allows filtering and investing resources only in queries with confirmed ROI potential."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I integrate RankCaster AI into my BI/reporting tools?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Export: Instantly generate Brand Strategy Reports in PDF and Excel. Enterprise: Large organizations can integrate via API and SSO protocol support."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How does RankCaster help in PR and GR work?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Reputation Protection: Identifies hallucinations and false facts about a brand. Narrative Management: Corrects logic in model responses using Knowledge Graphs and Semantic Axioms. Idea Monitoring: Tracks brand perception and dynamics of specific concepts and ideologies."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why can't I just use Semrush or Ahrefs?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Traditional tools only analyze links and keywords in Google. They miss the 40%+ reach happening inside LLMs. A #1 Google ranking no longer guarantees AI recommendation visibility; APR is the only reliable KPI in the new era."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How does RankCaster compare to Profound and other AI analytics platforms?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Analytics vs. Influence: Profound focuses on deep analytics and statistics across LLMs. RankCaster provides tools for active marketing management in AI, not just recording brand presence."
+            }
+        }
+    ]
+}

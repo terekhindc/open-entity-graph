@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://rankcaster.ai/#organization",
+    "name": "RankCaster AI",
+    "url": "https://rankcaster.ai",
+    "logo": {
+        "@type": "ImageObject",
+        "@id": "https://rankcaster.ai/#logo",
+        "url": "https://rankcaster.ai/logo-icon.png",
+        "caption": "RankCaster AI Logo"
+    },
+    "brand": {
+        "@type": "Brand",
+        "@id": "https://rankcaster.ai/#brand",
+        "name": "RankCaster AI"
+    },
+    "sameAs": [
+        "https://www.linkedin.com/company/rankcaster-ai/"
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "availableLanguage": [
+            "en",
+            "ru",
+            "ar",
+            "he",
+            "es"
+        ]
+    },
+    "founder": [
+        {
+            "@id": "https://rankcaster.ai/#person-andy"
+        },
+        {
+            "@id": "https://rankcaster.ai/#person-yusuf"
+        }
+    ]
+}

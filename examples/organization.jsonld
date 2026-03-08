@@ -1,0 +1,138 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://example.com/#org",
+            "name": "Tech Corp",
+            "legalName": "Tech Corporation International LLC",
+            "alternateName": [
+                "TC",
+                "TechCorp",
+                "TCI"
+            ],
+            "description": "Exhaustive semantic graph for AI Overviews and Google Knowledge Graph.",
+            "url": "https://example.com",
+            "logo": {
+                "@id": "https://example.com/#logo"
+            },
+            "image": [
+                {
+                    "@id": "https://example.com/#image_hq"
+                }
+            ],
+            "location": [
+                {
+                    "@id": "https://example.com/#hq_place"
+                }
+            ],
+            "address": [
+                {
+                    "@id": "https://example.com/#hq_address"
+                }
+            ],
+            "areaServed": [
+                {
+                    "@id": "https://example.com/#global_area"
+                }
+            ],
+            "founder": [
+                {
+                    "@id": "https://example.com/#founder_1"
+                }
+            ],
+            "foundingLocation": {
+                "@id": "https://example.com/#founding_place"
+            },
+            "subOrganization": [
+                {
+                    "@id": "https://example.com/#dept_ai"
+                }
+            ],
+            "brand": [
+                {
+                    "@id": "https://example.com/#brand_cloud"
+                }
+            ],
+            "contactPoint": [
+                {
+                    "@id": "https://example.com/#support"
+                }
+            ],
+            "aggregateRating": [
+                {
+                    "@id": "https://example.com/#rating_main"
+                }
+            ],
+            "sameAs": [
+                "https://wikidata.org/wiki/Q123456",
+                "https://linkedin.com/company/techcorp"
+            ],
+            "identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "DUNS",
+                    "value": "123456789"
+                }
+            ],
+            "taxID": "99-888777",
+            "numberOfEmployees": {
+                "@type": "QuantitativeValue",
+                "value": 5000
+            },
+            "telephone": "+1-555-0123",
+            "email": "info@example.com"
+        },
+        {
+            "@type": "AdministrativeArea",
+            "@id": "https://example.com/#global_area",
+            "name": "Worldwide"
+        },
+        {
+            "@type": "Place",
+            "@id": "https://example.com/#hq_place",
+            "name": "Main Headquarters",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 37.3861,
+                "longitude": -122.0839
+            }
+        },
+        {
+            "@type": "Place",
+            "@id": "https://example.com/#founding_place",
+            "name": "San Francisco",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 37.7749,
+                "longitude": -122.4194
+            }
+        },
+        {
+            "@type": "PostalAddress",
+            "@id": "https://example.com/#hq_address",
+            "streetAddress": "100 Innovation Drive",
+            "addressLocality": "Silicon Valley",
+            "addressRegion": "CA",
+            "addressCountry": "US"
+        },
+        {
+            "@type": "Person",
+            "@id": "https://example.com/#founder_1",
+            "name": "Alice Smith"
+        },
+        {
+            "@type": "AggregateRating",
+            "@id": "https://example.com/#rating_main",
+            "ratingValue": 4.9,
+            "reviewCount": 1250,
+            "reviewAspect": "Overall reliability"
+        },
+        {
+            "@type": "ContactPoint",
+            "@id": "https://example.com/#support",
+            "telephone": "+1-555-0199",
+            "contactType": "technical support"
+        }
+    ]
+}

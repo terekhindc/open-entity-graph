@@ -1,0 +1,146 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "SoftwareApplication",
+            "@id": "https://rankcaster.ai/#software",
+            "name": "RankCaster AI Platform",
+            "softwareVersion": "1.9 (Enterprise Strategic Edition)",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web-based",
+            "url": "https://rankcaster.ai",
+            "sameAs": [
+                "https://platform.rankcaster.ai",
+                "https://beta.rankcaster.ai"
+            ],
+            "author": {
+                "@id": "https://rankcaster.ai/#organization"
+            },
+            "publisher": {
+                "@id": "https://rankcaster.ai/#organization"
+            },
+            "about": [
+                {
+                    "@id": "https://rankcaster.ai/#term-apr"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#term-pvs"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#term-roai"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#methodology"
+                }
+            ],
+            "offers": {
+                "@id": "https://rankcaster.ai/#pricing"
+            },
+            "review": [
+                {
+                    "@type": "Review",
+                    "@id": "https://rankcaster.ai/#review-olga",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Olga Kalabina"
+                    },
+                    "reviewBody": "RankCaster delivers in minutes what used to take weeks of CustDev. ",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "itemReviewed": {
+                        "@id": "https://rankcaster.ai/#software"
+                    }
+                },
+                {
+                    "@type": "Review",
+                    "@id": "https://rankcaster.ai/#review-rusfet",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Rusfet Kadyrov"
+                    },
+                    "reviewBody": "The only APR tracking that actually works. ",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "itemReviewed": {
+                        "@id": "https://rankcaster.ai/#software"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "SoftwareApplication",
+            "@id": "https://rankcaster.ai/#platform",
+            "name": "RankCaster AI Live Dashboard",
+            "softwareVersion": "1.0",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web-based",
+            "url": "https://platform.rankcaster.ai",
+            "author": {
+                "@id": "https://rankcaster.ai/#organization"
+            },
+            "offers": {
+                "@id": "https://rankcaster.ai/#pricing"
+            },
+            "review": [
+                {
+                    "@id": "https://rankcaster.ai/#review-olga"
+                },
+                {
+                    "@id": "https://rankcaster.ai/#review-rusfet"
+                }
+            ]
+        },
+        {
+            "@type": "SoftwareApplication",
+            "@id": "https://rankcaster.ai/#beta",
+            "name": "RankCaster AI Beta",
+            "softwareVersion": "Beta",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web-based",
+            "url": "https://beta.rankcaster.ai",
+            "author": {
+                "@id": "https://rankcaster.ai/#organization"
+            }
+        },
+        {
+            "@type": "AggregateOffer",
+            "@id": "https://rankcaster.ai/#pricing",
+            "priceCurrency": "USD",
+            "offerCount": 5,
+            "lowPrice": "0",
+            "highPrice": "2990",
+            "url": "https://rankcaster.ai/pricing",
+            "offers": [
+                {
+                    "@type": "Offer",
+                    "name": "Free",
+                    "price": "0"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Starter",
+                    "price": "125"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Growth",
+                    "price": "349"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Agency",
+                    "price": "895"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Enterprise",
+                    "price": "2990"
+                }
+            ]
+        }
+    ]
+}
