@@ -9,14 +9,58 @@
     },
     {
       "@type": "Audience",
-      "@id": "https://aiwa-amiya.com/#audience-heritage-learners",
-      "audienceType": "Heritage learners reconnecting with spoken Levantine Arabic",
-      "description": "Learners who want to reconnect with Levantine roots, speak more naturally with family, and focus on real conversation rather than textbook Arabic."
+      "@id": "https://aiwa-amiya.com/#audience-diaspora-heritage-learners",
+      "audienceType": "Diaspora heritage learners reconnecting with spoken Levantine Arabic",
+      "description": "Second- or third-generation people of Levantine descent living in the West who want to reconnect with family, culture, and everyday Amiya conversation."
+    },
+    {
+      "@type": "Audience",
+      "@id": "https://aiwa-amiya.com/#audience-expat-ngo-development-workers",
+      "audienceType": "Expat NGO and development workers building daily communication skills",
+      "description": "Professionals working in humanitarian aid, journalism, or international development who need practical Levantine Arabic for everyday interactions in Jordan, Lebanon, or Palestine."
+    },
+    {
+      "@type": "Audience",
+      "@id": "https://aiwa-amiya.com/#audience-frustrated-academic-arabic-students",
+      "audienceType": "Students trying to bridge the gap between MSA and real spoken Arabic",
+      "description": "University students and independent learners who studied Fusha or Modern Standard Arabic but still struggle to understand native speakers in everyday settings."
+    },
+    {
+      "@type": "Audience",
+      "@id": "https://aiwa-amiya.com/#audience-immersive-travelers-digital-nomads",
+      "audienceType": "Immersive travelers and digital nomads preparing for extended stays in the Levant",
+      "description": "Travelers and remote workers who want authentic, practical spoken Arabic for navigating daily life and connecting with locals beyond tourist phrases."
     },
     {
       "@type": "DefinedTermSet",
       "@id": "https://aiwa-amiya.com/#topic-graph",
-      "name": "Aiwa Amiya topic graph"
+      "name": "Aiwa Amiya topic graph",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://aiwa-amiya.com/#term-levantine-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-spoken-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-modern-standard-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-heritage-language-learning"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-native-levantine-speakers"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-levantine-pop-culture"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-conversational-fluency"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-one-on-one-arabic-tutoring"
+        }
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -29,6 +73,14 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "https://aiwa-amiya.com/#term-spoken-arabic",
+      "name": "Spoken Arabic",
+      "inDefinedTermSet": {
+        "@id": "https://aiwa-amiya.com/#topic-graph"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "https://aiwa-amiya.com/#term-modern-standard-arabic",
       "name": "Modern Standard Arabic",
       "inDefinedTermSet": {
@@ -38,16 +90,16 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://aiwa-amiya.com/#term-spoken-arabic",
-      "name": "Spoken Arabic",
+      "@id": "https://aiwa-amiya.com/#term-heritage-language-learning",
+      "name": "Heritage language learning",
       "inDefinedTermSet": {
         "@id": "https://aiwa-amiya.com/#topic-graph"
       }
     },
     {
       "@type": "DefinedTerm",
-      "@id": "https://aiwa-amiya.com/#term-native-speakers",
-      "name": "Native speakers",
+      "@id": "https://aiwa-amiya.com/#term-native-levantine-speakers",
+      "name": "Native Levantine speakers",
       "inDefinedTermSet": {
         "@id": "https://aiwa-amiya.com/#topic-graph"
       }
@@ -61,22 +113,53 @@
       }
     },
     {
+      "@type": "DefinedTerm",
+      "@id": "https://aiwa-amiya.com/#term-conversational-fluency",
+      "name": "Conversational fluency",
+      "inDefinedTermSet": {
+        "@id": "https://aiwa-amiya.com/#topic-graph"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://aiwa-amiya.com/#term-one-on-one-arabic-tutoring",
+      "name": "1-on-1 Arabic tutoring",
+      "inDefinedTermSet": {
+        "@id": "https://aiwa-amiya.com/#topic-graph"
+      }
+    },
+    {
       "@type": "Course",
-      "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners",
-      "name": "Aiwa Amiya — Levantine Arabic for Beginners",
+      "@id": "https://aiwa-amiya.com/#course-yalla-levantine-self-paced-mastery",
+      "name": "Yalla Levantine: Self-Paced Mastery",
+      "alternateName": [
+        "Aiwa Amiya — Levantine Arabic for Beginners"
+      ],
       "url": "https://aiwa-amiya.com/#course",
-      "description": "Self-paced video lessons in real Levantine Arabic. 50+ lessons from native speakers. Built for heritage learners and anyone ready to speak, not just study.",
+      "description": "Master the everyday spoken language of Lebanon, Syria, Jordan, and Palestine on your own schedule. This self-paced course uses immersive video lessons and interactive exercises focused on conversational Levantine Arabic.",
       "provider": {
         "@id": "https://aiwa-amiya.com/#organization"
       },
-      "audience": {
-        "@id": "https://aiwa-amiya.com/#audience-heritage-learners"
-      },
+      "audience": [
+        {
+          "@id": "https://aiwa-amiya.com/#audience-diaspora-heritage-learners"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#audience-expat-ngo-development-workers"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#audience-frustrated-academic-arabic-students"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#audience-immersive-travelers-digital-nomads"
+        }
+      ],
       "availableLanguage": [
         "en",
         "ar"
       ],
       "educationalLevel": "Beginner",
+      "coursePrerequisites": "No prior Levantine speaking confidence is required. Useful for learners starting from zero or transitioning away from textbook Modern Standard Arabic.",
       "about": [
         {
           "@id": "https://aiwa-amiya.com/#term-levantine-arabic"
@@ -88,14 +171,23 @@
           "@id": "https://aiwa-amiya.com/#term-modern-standard-arabic"
         },
         {
-          "@id": "https://aiwa-amiya.com/#term-native-speakers"
+          "@id": "https://aiwa-amiya.com/#term-heritage-language-learning"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-native-levantine-speakers"
         },
         {
           "@id": "https://aiwa-amiya.com/#term-levantine-pop-culture"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-conversational-fluency"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-one-on-one-arabic-tutoring"
         }
       ],
       "hasCourseInstance": {
-        "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners-instance"
+        "@id": "https://aiwa-amiya.com/#course-yalla-levantine-self-paced-mastery-instance"
       },
       "subjectOf": {
         "@type": "CreativeWork",
@@ -105,13 +197,15 @@
     },
     {
       "@type": "CourseInstance",
-      "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners-instance",
+      "@id": "https://aiwa-amiya.com/#course-yalla-levantine-self-paced-mastery-instance",
+      "name": "Yalla Levantine: Self-Paced Mastery — Self-Paced Online Course Instance",
       "courseMode": [
         "online",
         "self-paced",
         "asynchronous"
       ],
       "courseWorkload": "Self-paced",
+      "description": "Includes 50+ bite-sized video lessons led by native Levantine speakers, interactive listening and pronunciation quizzes, pop-culture dialogue breakdowns, downloadable Amiya cheat sheets, and a bridge into 1-on-1 tutoring.",
       "inLanguage": [
         "en",
         "ar"
@@ -121,14 +215,17 @@
         "url": "https://app.aiwa-amiya.com/sign-up"
       },
       "offers": {
-        "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners-offer"
+        "@id": "https://aiwa-amiya.com/#course-yalla-levantine-self-paced-mastery-offer"
       }
     },
     {
       "@type": "Offer",
-      "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners-offer",
+      "@id": "https://aiwa-amiya.com/#course-yalla-levantine-self-paced-mastery-offer",
       "url": "https://app.aiwa-amiya.com/sign-up",
       "availability": "https://schema.org/InStock",
+      "itemOffered": {
+        "@id": "https://aiwa-amiya.com/#course-yalla-levantine-self-paced-mastery"
+      },
       "seller": {
         "@id": "https://aiwa-amiya.com/#organization"
       }
