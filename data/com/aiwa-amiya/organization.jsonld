@@ -5,15 +5,35 @@
       "@type": "Organization",
       "@id": "https://aiwa-amiya.com/#organization",
       "name": "Aiwa Amiya",
+      "alternateName": [
+        "aiwa-amiya",
+        "aiwaamiya"
+      ],
       "url": "https://aiwa-amiya.com/",
       "logo": "https://aiwa-amiya.com/favicon.svg",
-      "description": "Aiwa Amiya offers self-paced spoken Arabic learning focused on real Levantine conversation, native speakers, and heritage learners.",
+      "description": "Aiwa Amiya is a Levantine Arabic learning brand focused on self-paced, conversation-first Arabic for heritage learners, expats, travelers, and students moving beyond textbook Modern Standard Arabic.",
       "knowsAbout": [
-        "Levantine Arabic",
-        "Spoken Arabic",
-        "Heritage language learning",
-        "Modern Standard Arabic",
-        "Levantine pop culture"
+        {
+          "@id": "https://aiwa-amiya.com/#term-levantine-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-spoken-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-heritage-language-learning"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-modern-standard-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-native-levantine-speakers"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-levantine-pop-culture"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-conversational-fluency"
+        }
       ],
       "sameAs": [
         "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/aiwa-amiya/organization.jsonld"
