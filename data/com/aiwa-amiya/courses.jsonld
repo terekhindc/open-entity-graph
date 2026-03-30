@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://aiwa-amiya.com/#organization",
+      "name": "Aiwa Amiya",
+      "url": "https://aiwa-amiya.com/"
+    },
+    {
+      "@type": "Audience",
+      "@id": "https://aiwa-amiya.com/#audience-heritage-learners",
+      "audienceType": "Heritage learners reconnecting with spoken Levantine Arabic",
+      "description": "Learners who want to reconnect with Levantine roots, speak more naturally with family, and focus on real conversation rather than textbook Arabic."
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://aiwa-amiya.com/#topic-graph",
+      "name": "Aiwa Amiya topic graph"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://aiwa-amiya.com/#term-levantine-arabic",
+      "name": "Levantine Arabic",
+      "inDefinedTermSet": {
+        "@id": "https://aiwa-amiya.com/#topic-graph"
+      },
+      "sameAs": "https://en.wikipedia.org/wiki/Levantine_Arabic"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://aiwa-amiya.com/#term-modern-standard-arabic",
+      "name": "Modern Standard Arabic",
+      "inDefinedTermSet": {
+        "@id": "https://aiwa-amiya.com/#topic-graph"
+      },
+      "sameAs": "https://en.wikipedia.org/wiki/Modern_Standard_Arabic"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://aiwa-amiya.com/#term-spoken-arabic",
+      "name": "Spoken Arabic",
+      "inDefinedTermSet": {
+        "@id": "https://aiwa-amiya.com/#topic-graph"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://aiwa-amiya.com/#term-native-speakers",
+      "name": "Native speakers",
+      "inDefinedTermSet": {
+        "@id": "https://aiwa-amiya.com/#topic-graph"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://aiwa-amiya.com/#term-levantine-pop-culture",
+      "name": "Levantine pop culture",
+      "inDefinedTermSet": {
+        "@id": "https://aiwa-amiya.com/#topic-graph"
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners",
+      "name": "Aiwa Amiya — Levantine Arabic for Beginners",
+      "url": "https://aiwa-amiya.com/#course",
+      "description": "Self-paced video lessons in real Levantine Arabic. 50+ lessons from native speakers. Built for heritage learners and anyone ready to speak, not just study.",
+      "provider": {
+        "@id": "https://aiwa-amiya.com/#organization"
+      },
+      "audience": {
+        "@id": "https://aiwa-amiya.com/#audience-heritage-learners"
+      },
+      "availableLanguage": [
+        "en",
+        "ar"
+      ],
+      "educationalLevel": "Beginner",
+      "about": [
+        {
+          "@id": "https://aiwa-amiya.com/#term-levantine-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-spoken-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-modern-standard-arabic"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-native-speakers"
+        },
+        {
+          "@id": "https://aiwa-amiya.com/#term-levantine-pop-culture"
+        }
+      ],
+      "hasCourseInstance": {
+        "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners-instance"
+      },
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/blob/main/data/com/aiwa-amiya/courses.jsonld"
+      }
+    },
+    {
+      "@type": "CourseInstance",
+      "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners-instance",
+      "courseMode": [
+        "online",
+        "self-paced",
+        "asynchronous"
+      ],
+      "courseWorkload": "Self-paced",
+      "inLanguage": [
+        "en",
+        "ar"
+      ],
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://app.aiwa-amiya.com/sign-up"
+      },
+      "offers": {
+        "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners-offer"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://aiwa-amiya.com/#course-levantine-arabic-for-beginners-offer",
+      "url": "https://app.aiwa-amiya.com/sign-up",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@id": "https://aiwa-amiya.com/#organization"
+      }
+    }
+  ]
+}
