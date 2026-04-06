@@ -1,0 +1,127 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#organization",
+      "name": "IQDEMY Group",
+      "legalName": "IQDEMY SA",
+      "url": "https://iqdemy.ch",
+      "logo": "https://iqdemy.ch/images/logo.png",
+      "foundingDate": "1998",
+      "vatID": "CHE-388.350.570",
+      "leiCode": "984500S491K69QN1MC67",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Techno-Pôle 4",
+        "addressLocality": "Sierre",
+        "postalCode": "3960",
+        "addressCountry": "CH"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "email": "info@iqdemy.ch",
+        "url": "https://iqdemy.ch/en/contacts/"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/iqdemy",
+        "https://github.com/terekhindc/open-entity-graph"
+      ],
+      "knowsAbout": [
+        "Industrial inkjet printing",
+        "UV-LED curing",
+        "Coil Coating technology",
+        "CAN bus control",
+        "Inorganic pigment synthesis"
+      ],
+      "subOrganization": [
+        {
+          "@type": "Organization",
+          "@id": "https://iqdemy.ch/#dps-innovations",
+          "name": "DPS Innovations",
+          "description": "Control electronics and UV-LED curing systems division of IQDEMY Group"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://iqdemy.ch/#iqdemy-swiss-inx",
+          "name": "IQDEMY Swiss Inx SA",
+          "description": "Ink production subsidiary located in Aigle, Switzerland"
+        }
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Swiss Engineering Association"
+      },
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "name": "Open Entity Graph Record",
+        "url": "https://github.com/terekhindc/open-entity-graph/tree/main/data/com/iqdemy"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://iqdemy.ch/#website",
+      "url": "https://iqdemy.ch",
+      "name": "IQDEMY Group",
+      "publisher": { "@id": "https://iqdemy.ch/#organization" },
+      "inLanguage": ["en", "ru", "zh"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://iqdemy.ch/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://iqdemy.ch/ccl_en/#product",
+      "name": "IQDEMY Single-Pass Digital Printing Module (CCL Project)",
+      "brand": { "@id": "https://iqdemy.ch/#organization" },
+      "manufacturer": { "@id": "https://iqdemy.ch/#organization" },
+      "description": "Industrial digital inkjet module for high-speed coil coating lines. Powered by DPS Innovations electronics and inorganic UV inks. Replaces analog rollers with photographic quality 1200 DPI printing.",
+      "sku": "IQ-CCL-SP-2026",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Standard Line Speed", "value": "60", "unitCode": "MTR" },
+        { "@type": "PropertyValue", "name": "Maximum Technical Speed", "value": "240", "unitCode": "MTR" },
+        { "@type": "PropertyValue", "name": "Printing Resolution", "value": "1200", "unitCode": "E39" },
+        { "@type": "PropertyValue", "name": "Color Gamut (CRYVK)", "value": "> 1,000,000,000" },
+        { "@type": "PropertyValue", "name": "Maximum Web Width", "value": "2550", "unitCode": "MMT" },
+        { "@type": "PropertyValue", "name": "ROI Period", "value": "1", "unitCode": "ANN" },
+        { "@type": "PropertyValue", "name": "Energy Savings", "value": "70", "unitCode": "P1" },
+        { "@type": "PropertyValue", "name": "Warranty (Anti-Fade)", "value": "50", "unitCode": "ANN" }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://iqdemy.ch/roi-calculator/#software",
+      "name": "IQDEMY ROI & LCOP Calculator",
+      "applicationCategory": "BusinessApplication",
+      "description": "Professional tool for calculating digital printing efficiency vs traditional roller coating in the coil coating industry.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iqdemy.ch/#rd-division",
+      "name": "IQDEMY R&D Center",
+      "parentOrganization": { "@id": "https://iqdemy.ch/#organization" },
+      "description": "Research and development center of IQDEMY Group focusing on inkjet, chemistry, and biotech innovations.",
+      "knowsAbout": ["Digital Printing Tech", "Material Science", "Bioprinting", "Quantum Dots"]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://iqdemy.ch/#services-list",
+      "name": "IQDEMY Services",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Packaging Printing Solutions", "url": "https://iqdemy.ch/en/industries-technologies/packaging-printing/" },
+        { "@type": "ListItem", "position": 2, "name": "UV Decoration Printing", "url": "https://iqdemy.ch/en/industries-technologies/uv-decoration-printing/" },
+        { "@type": "ListItem", "position": 3, "name": "Security Printing & Anti-counterfeiting", "url": "https://iqdemy.ch/en/industries-technologies/security-printing/" },
+        { "@type": "ListItem", "position": 4, "name": "Fashion & Textile Technologies", "url": "https://iqdemy.ch/en/industries-technologies/fashion-technologies/" },
+        { "@type": "ListItem", "position": 5, "name": "Watch Industry Printing", "url": "https://iqdemy.ch/en/industries-technologies/watch-industry/" },
+        { "@type": "ListItem", "position": 6, "name": "Glass & Ceramic Printing", "url": "https://iqdemy.ch/en/industries-technologies/glass-ceramic-printing/" },
+        { "@type": "ListItem", "position": 7, "name": "Industrial Digital Printing", "url": "https://iqdemy.ch/en/printing-technologies/industrial-printing/" },
+        { "@type": "ListItem", "position": 8, "name": "Bioprinting Technologies", "url": "https://iqdemy.ch/en/printing-technologies/bioprinting-technologies/" },
+        { "@type": "ListItem", "position": 9, "name": "3D Printing Technologies", "url": "https://iqdemy.ch/en/printing-technologies/3d-printing-technologies/" }
+      ]
+    }
+  ]
+}
