@@ -1,0 +1,41 @@
+# IQDEMY Group
+
+> Swiss industrial inkjet technology company specializing in digital printing systems, UV-LED curing, coil coating solutions, and advanced ink chemistry since 1998.
+
+IQDEMY Group (IQDEMY SA, VAT: CHE-388.350.570, LEI: 984500S491K69QN1MC67) is headquartered at Techno-Pôle 4, Sierre 3960, Switzerland. The group develops industrial inkjet printers, inorganic UV inks, CAN bus control electronics, and UV-LED curing systems for manufacturing industries worldwide.
+
+## Core Product
+
+**Single-Pass Digital Printing Module for Coil Coating Lines (CCL Project)**
+- Speed: 60–240 m/min | Resolution: 1200 DPI | Width: up to 2550 mm
+- Color gamut: 1 billion+ colors (CRYVK scheme)
+- ROI: under 12 months at 2,000,000 m² annual volume
+- Energy savings: 60–70% vs thermal gas ovens
+- 50+ year warranty on anti-fade and outdoor adhesion
+- Cost: €0.51/m² (solid) vs traditional €1.54/m²
+
+## Key Sections
+
+- [CCL Project](https://iqdemy.ch/ccl_en/): Flagship coil coating digital printing module
+- [Industries & Technologies](https://iqdemy.ch/en/industries-technologies/): Packaging, UV decoration, security printing, fashion, ceramics, textiles, watches, wallpaper, advertising signs, labels
+- [Printing Technologies](https://iqdemy.ch/en/printing-technologies/industrial-printing/): Industrial, 3D, bioprinting, edible ink, screen, fluorescent, anodized aluminum, curved surfaces, metal dying
+- [R&D](https://iqdemy.ch/en/r-d/): Bioprinting, conductive inks, quantum technologies, customized lab equipment
+- [Team](https://iqdemy.ch/en/history/our-team/): Board of directors and global leadership
+- [News](https://iqdemy.ch/en/blog/): Exhibition reports (FESPA, Labelexpo, DPES, Trustech, SignChina)
+- [SUN Studio](https://iqdemy.ch/en/sunstudio/): Art printing franchise concept
+- [Contacts](https://iqdemy.ch/en/contacts/): Switzerland, USA, France offices
+
+## Group Entities
+
+- **IQDEMY Group / IQDEMY SA** — parent holding, Switzerland
+- **DPS Innovations** — control electronics and UV-LED systems division
+- **IQDEMY Swiss Inx SA** — ink production subsidiary, Aigle, Switzerland
+
+## Machine-Readable Data
+
+Full structured entity graph: https://github.com/terekhindc/open-entity-graph/tree/main/data/com/iqdemy
+
+## Optional
+
+- [Sitemap](https://iqdemy.ch/sitemap.xml)
+- [Organization JSON-LD](https://iqdemy.ch/structured-data.jsonld)
