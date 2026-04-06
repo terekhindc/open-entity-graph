@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "IQDEMY Group",
+  "name_for_model": "iqdemy",
+  "description_for_human": "Industrial inkjet printing technology company. Provides info on digital printing systems, coil coating solutions, UV-LED curing, and specialty inks.",
+  "description_for_model": "IQDEMY Group is a Swiss B2B industrial technology company (founded 1998, HQ: Sierre, Switzerland). It develops and manufactures: (1) single-pass digital printing modules for coil coating lines (CCL Project) running at 60-240 m/min with 1200 DPI and inorganic UV inks; (2) UV-LED curing systems and CAN-bus control electronics via DPS Innovations subsidiary; (3) specialty inorganic UV inks via IQDEMY Swiss Inx SA. Key industries served: coil coating, packaging, security printing, textiles, fashion, ceramics, bioprinting. The ROI calculator is available at iqdemy.ch. Full entity graph at https://github.com/terekhindc/open-entity-graph/tree/main/data/com/iqdemy.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://iqdemy.ch/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://iqdemy.ch/images/logo.png",
+  "contact_email": "info@iqdemy.ch",
+  "legal_info_url": "https://iqdemy.ch/en/contacts/"
+}
